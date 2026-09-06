@@ -5,7 +5,8 @@ STORAGE-REGEL: Diese Session laeuft in der Cloud ohne Zugriff auf Benes Vault. B
 VERTRAULICHKEIT: Der Feed liegt auf GitHub Pages, unverlinkt, aber technisch oeffentlich. Deshalb: keine easybill-internen Zahlen (ARR, Churn, Headcount, Budgets, Verguetung, Namen von Kollegen oder Investoren-Interna) im Skript oder in den Shownotes. easybill wird als Anwendungsfall in allgemeinen Worten behandelt ("ein SMB-Rechnungs-SaaS vor der E-Rechnungswelle"). Oeffentlich Bekanntes (Produkt, Preise auf der Website, E-Rechnungspflicht) ist erlaubt.
 
 SCHRITT 0 - Vorbedingungen
-In Bash pruefen: `echo "GEMINI:${GEMINI_API_KEY:+set} GH_TOKEN:${CRO_DAILY_GH_TOKEN:+set} GH_USER:${CRO_DAILY_GH_USER:-missing}"`. Fehlt eine Variable: sofort abbrechen, Antwort in einem Satz "CRO Daily: Umgebungsvariable <NAME> fehlt, keine Folge produziert." Nichts weiter tun.
+Das Repo `benebxr/cro-daily` ist dieser Routine zugeordnet und liegt bereits geklont im Arbeitsverzeichnis (pruefe mit `ls`; liegt es nicht da: `git clone https://github.com/benebxr/cro-daily.git`, der GitHub-Proxy authentifiziert). Wechsle hinein und ziehe den aktuellen Stand: `git checkout main && git pull`.
+Der Gemini-Key liegt als API-Credential der Cloud-Umgebung (Host generativelanguage.googleapis.com) und wird vom Proxy angehaengt; er ist nicht als Variable sichtbar, das ist normal. Schlaegt der TTS-Aufruf spaeter mit 401 oder 403 fehl, fehlt das Credential: dann abbrechen und in einem Satz melden "CRO Daily: Gemini-Credential der Cloud-Umgebung fehlt oder ist ungueltig, keine Folge produziert."
 
 SCHRITT 1 - Steuerseite lesen
 a) Notion-Seite "CRO Daily HQ" (ID 3d37a10d-51e5-81d5-a048-d8a72951d43b) vollstaendig lesen. Sie ist kanonisch: Hoererprofil, Themenprofil mit 90-Tage-Kalender, Format-Vertrag, Quellenlisten 4a-4g, Feedback von Bene, Themen-Log.
@@ -25,7 +26,6 @@ Hauptstueck: hoechster Score mit Substanz; Volltext per WebFetch lesen, nie aus 
 Liegt kein Kandidat bei Score 3 oder hoeher: kuerzere Folge (mindestens 8 Minuten) nur aus Radar plus Konzept plus Move. Ist auch das nicht tragfaehig: keine Folge, Log-Eintrag mit Begruendung, Schritt 5 ueberspringen.
 
 SCHRITT 4 - Skript und Shownotes schreiben
-Repo klonen: `git clone https://${CRO_DAILY_GH_USER}:${CRO_DAILY_GH_TOKEN}@github.com/${CRO_DAILY_GH_USER}/cro-daily.git /home/claude/cro-daily` (bei Fehler einmal wiederholen, dann abbrechen und melden).
 Skript nach `scripts/YYYY-MM-DD.md` (Datum = heute, Europe/Berlin). Format:
 ```
 ---
@@ -48,12 +48,14 @@ Regeln fuer das Skript:
 Shownotes nach `docs/episodes/YYYY-MM-DD.md`: drei Saetze Zusammenfassung; "## Quellen" mit Titel, Autor, Datum, URL je Zeile als "- "; "## Konzept des Tages" mit Buch/Autor; "## Der eine Move" ein Satz.
 
 SCHRITT 5 - Produktion und Veroeffentlichung
-In `/home/claude/cro-daily`:
+Im Repo-Verzeichnis:
 ```
+pip install requests --break-system-packages -q
 python3 pipeline/tts.py scripts/YYYY-MM-DD.md docs/episodes/YYYY-MM-DD.mp3
 python3 pipeline/feed.py
-git add -A && git -c user.name="CRO Daily" -c user.email="cro-daily@users.noreply.github.com" commit -m "Folge YYYY-MM-DD" && git push
+git add -A && git commit -m "Folge YYYY-MM-DD" && git push origin main
 ```
+Direkt auf `main` pushen, keinen `claude/`-Branch und keinen Pull Request anlegen: der Feed wird aus `main` gebaut.
 Schlaegt `tts.py` fehl: einmal wiederholen. Schlaegt es wieder fehl: nichts pushen (keine halbe Folge, kein JSON ohne MP3), Fehlertext in den Log-Eintrag, Meldung an Bene. Nach dem Push zwei Minuten warten, dann `curl -sI <base_url aus pipeline/config.json>/episodes/YYYY-MM-DD.mp3` pruefen; HTTP 200 erwartet. Bleibt es nach drei Versuchen im Abstand von zwei Minuten bei etwas anderem: melden, nicht endlos warten.
 
 SCHRITT 6 - Log und Meldung
