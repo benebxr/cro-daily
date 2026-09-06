@@ -49,6 +49,10 @@ Richtwert: rund 160 Woerter pro Minute; 2.700 bis 3.000 Woerter ergeben 17 bis 1
 
 Der Task laeuft in Benes Cloud-Umgebung. GitHub-Zugriff kommt ueber die GitHub-Verbindung des Claude-Kontos (Proxy, kein Token im Container). Der Gemini-Key liegt als API-Credential der Umgebung (Host generativelanguage.googleapis.com, Header x-goog-api-key) oder ersatzweise als Umgebungsvariable GEMINI_API_KEY. Fehlt beides, bricht tts.py mit einer klaren Meldung ab statt eine halbe Folge zu bauen.
 
+## Gemini-Kontingent
+
+Der Free Tier von Gemini 2.5 Flash TTS erlaubt 10 Requests pro Tag; eine 18-Minuten-Folge braucht mit 800-Woerter-Chunks 4 Requests, Tests und Wiederholungen kommen dazu. Der Testlauf am 06.09.2026 ist genau daran gescheitert (RESOURCE_EXHAUSTED). Fuer den Dauerbetrieb muss im Google-AI-Studio-Projekt Billing aktiviert sein (Paid Tier 1: 1.000 Requests pro Tag, Kosten pro Folge im Cent-Bereich). Der API-Key bleibt derselbe.
+
 ## Wenn interne easybill-Quellen dazukommen
 
 GitHub Pages ist unverlinkt, aber oeffentlich. Vor der ersten internen Quelle: Hosting auf einen privaten Speicher mit signierten URLs umstellen (z.B. Cloudflare R2) oder auf eine Claude-Artifact-Seite. Bis dahin nur oeffentliche Quellen und Benes eigene Newsletter.

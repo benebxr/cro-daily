@@ -13,7 +13,7 @@ Skriptformat (Markdown):
     ---
     NINA: Satz ...
     JONAS: Satz ...
-    ===                      <- optionale Chunk-Grenze (sonst automatisch ~ alle 550 Woerter)
+    ===                      <- optionale Chunk-Grenze (sonst automatisch ~ alle 800 Woerter; Free Tier erlaubt nur 10 TTS-Requests pro Tag, Paid Tier 1000)
 
 Umgebung:
     GEMINI_API_KEY   optional, wenn die Cloud-Umgebung den Key als API-Credential anhaengt (Header x-goog-api-key)
@@ -37,7 +37,7 @@ VOICE_A = os.environ.get("TTS_VOICE_A", "Kore")
 VOICE_B = os.environ.get("TTS_VOICE_B", "Charon")
 MODEL = os.environ.get("TTS_MODEL", "gemini-2.5-flash-preview-tts")
 FALLBACK_MODELS = ["gemini-2.5-flash-preview-tts", "gemini-3.1-flash-tts-preview", "gemini-2.5-pro-preview-tts"]
-CHUNK_WORDS = int(os.environ.get("TTS_CHUNK_WORDS", "550"))
+CHUNK_WORDS = int(os.environ.get("TTS_CHUNK_WORDS", "800"))
 SAMPLE_RATE = 24000
 
 STYLE_PROMPT = (
