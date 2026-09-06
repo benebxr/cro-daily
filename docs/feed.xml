@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CRO Daily</title>
+    <link>https://benebxr.github.io/cro-daily/</link>
+    <atom:link href="https://benebxr.github.io/cro-daily/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>de-de</language>
+    <description>Taegliches Wissensbriefing fuer Bene als CRO bei easybill. Externe Quellen zuerst, jede Folge endet mit einem Move.</description>
+    <itunes:author>Bene Bergander</itunes:author>
+    <itunes:owner><itunes:name>Bene Bergander</itunes:name><itunes:email>benedikt.bergander@gmail.com</itunes:email></itunes:owner>
+    <itunes:image href="https://benebxr.github.io/cro-daily/cover.png"/>
+    <itunes:category text="Business"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <lastBuildDate>Sun, 06 Sep 2026 18:25:32 +0000</lastBuildDate>
+    
+    <item>
+      <title>CRO Daily 07.09. - CRM vor dem Scoring, ROI-Ära, Mom Test</title>
+      <itunes:title>CRO Daily 07.09. - CRM vor dem Scoring, ROI-Ära, Mom Test</itunes:title>
+      <description><![CDATA[<p>Tag 1 bei easybill. Hauptstück: Wie Kyle Doherty (RevOps, Attio) das eigene CRM konfiguriert: Segmentierung vor Scoring, Signale nur dort, wo eine Aktion entsteht, ein Closed-Lost-Agent, geteilte Prompts als Team-Infrastruktur. Zweites Stück: Anika Zubair zur ROI-Ära, warum Nutzung allein keine Renewal-Sicherheit mehr ist und wie die So-what-Kette funktioniert. Konzept: The Mom Test für die Kundengespräche der ersten Wochen.</p>
+
+<h3>Quellen</h3>
+<ul><li>How Attio Runs RevOps on Attio. Kyle Doherty, in: GTM Strategist (Maja Voje), 04.09.2026. Hinweis: Attio ist Partner des Newsletters. <a href="https://knowledge.gtmstrategist.com/p/how-attio-runs-revops-on-attio">https://knowledge.gtmstrategist.com/p/how-attio-runs-revops-on-attio</a></li>
+<li>Your Product Is Used. But Is It Worth Paying For? Anika Zubair, SaaSiest, 03.09.2026. <a href="https://saasiest.com/your-product-is-used-but-is-it-worth-paying-for/">https://saasiest.com/your-product-is-used-but-is-it-worth-paying-for/</a></li>
+<li>5 Interesting Learnings from Salesforce at $45 Billion ARR. SaaStr, 03.09.2026. <a href="https://www.saastr.com/5-interesting-learnings-from-salesforce-at-45-billion-arr-14-crpo-growth-6-organic-growth-and-2-53-of-eps-from-its-anthropic-stake/">https://www.saastr.com/5-interesting-learnings-from-salesforce-at-45-billion-arr-14-crpo-growth-6-organic-growth-and-2-53-of-eps-from-its-anthropic-stake/</a></li>
+<li>Can you get to $100M with five people? Jared, GTM Engineer School, 04.09.2026 (Live-Sessions 08.-10.09., 8am PT). <a href="https://gtmengineerschool.substack.com/p/can-you-get-to-100m-with-five-people">https://gtmengineerschool.substack.com/p/can-you-get-to-100m-with-five-people</a></li>
+<li>E-Rechnung wird 2027 Pflicht: Problem für viele Unternehmen. t-online, 02.06.2026, YouGov-Erhebung im Auftrag von easybill, n=502. <a href="https://www.t-online.de/finanzen/aktuelles/wirtschaft/id_101278206/e-rechnung-wird-2027-pflicht-problem-fuer-viele-unternehmen.html">https://www.t-online.de/finanzen/aktuelles/wirtschaft/id_101278206/e-rechnung-wird-2027-pflicht-problem-fuer-viele-unternehmen.html</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+<p>The Mom Test. Rob Fitzpatrick, 2013. Drei Regeln: über ihr Leben reden, nach konkreter Vergangenheit fragen, weniger reden. Komplimente sind Fools Gold; Commitment und Advancement sind der Beweis.</p>
+
+<h3>Der eine Move</h3>
+<p>Vor dem ersten der zwanzig Kundengespräche den Leitfaden nach Mom-Test-Regeln umschreiben: nur Vergangenheit, kein &quot;würden&quot;, ein Commitment pro Gespräch, eine So-what-Kette pro Kunde.</p>]]></description>
+      <itunes:summary>Wie Attio sein eigenes CRM für RevOps konfiguriert, warum Nutzung allein keine Renewal-Sicherheit mehr ist, und wie du Kundengespräche führst, ohne dich selbst zu belügen.</itunes:summary>
+      <pubDate>Mon, 07 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-09-07</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-09-07.mp3" length="7155635" type="audio/mpeg"/>
+      <itunes:duration>00:14:54</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
