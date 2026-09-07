@@ -58,7 +58,7 @@ def fmt_dur(sec: int) -> str:
 
 def main():
     eps = []
-    for j in sorted(EPS.glob("*.json"), reverse=True):
+    for j in sorted(EPS.glob("*.json"), key=lambda x: x.stem.replace("-", "~", 2).replace("-", "."), reverse=True):
         info = json.loads(j.read_text(encoding="utf-8"))
         mp3 = EPS / info["file"]
         if not mp3.exists():
@@ -79,6 +79,10 @@ def main():
     items = []
     for e in eps:
         d = datetime.strptime(e["date"], "%Y-%m-%d").replace(hour=4, minute=0, tzinfo=timezone.utc)
+        # Zweite Folge am selben Tag (Stem "YYYY-MM-DD-2") bekommt eine spaetere pubDate
+        msfx = re.search(r"-(\d+)$", e["stem"][10:])
+        if msfx:
+            d = d.replace(hour=4 + int(msfx.group(1)))
         url = f"{base}/episodes/{e['file']}"
         notes_html = md_to_html(e["notes_md"]) if e["notes_md"] else f"<p>{esc(e['description'])}</p>"
         items.append(f"""

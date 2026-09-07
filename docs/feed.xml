@@ -12,8 +12,31 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Sun, 06 Sep 2026 18:25:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 08:12:18 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 07.09. (2) - Activation-Lücke, Claudeforce, Monetizing Innovation</title>
+      <itunes:title>CRO Daily 07.09. (2) - Activation-Lücke, Claudeforce, Monetizing Innovation</itunes:title>
+      <description><![CDATA[<p>Zweite Folge zu Tag 1. Hauptstück: der Onboarding-Benchmark 2026 von Perspective AI (Anbieter-Report, entsprechend eingeordnet): Activation-Mediane und Top-Quartile nach Branche, Zeit bis zum Wert nach Kontogröße, die fünf Muster der besten Programme und die Instrumentierungsliste. Zweites Stück: Brendan (The Signal) über Claudeforce und die vier Lehren, warum die Arbeit ins LLM wandert und das System der Wahrheit dabei wichtiger wird. Konzept: Monetizing Innovation.</p>
+
+<h3>Quellen</h3>
+<ul><li>The 2026 Customer Onboarding Benchmark Report: Activation Rates by Industry. Perspective AI, 11.05.2026. Anbieter-Report. <a href="https://getperspective.ai/blog/2026-customer-onboarding-benchmark-activation-rates-by-industry">https://getperspective.ai/blog/2026-customer-onboarding-benchmark-activation-rates-by-industry</a></li>
+<li>What everyone is missing about &quot;Claudeforce&quot;. Brendan, The Signal, 04.09.2026. <a href="https://www.thesignal.club/p/claudeforce">https://www.thesignal.club/p/claudeforce</a></li>
+<li>The 2026 free-to-paid conversion report. Kyle Poyar mit ChartMogul und ProductLed, Growth Unhinged, 04.02.2026. <a href="https://www.growthunhinged.com/p/free-to-paid-conversion-report">https://www.growthunhinged.com/p/free-to-paid-conversion-report</a></li>
+<li>Can you get to $100M with five people? Jared, GTM Engineer School, 04.09.2026 (Live-Sessions 08.-10.09., 8am PT). <a href="https://gtmengineerschool.substack.com/p/can-you-get-to-100m-with-five-people">https://gtmengineerschool.substack.com/p/can-you-get-to-100m-with-five-people</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+<p>Monetizing Innovation. Madhavan Ramanujam und Georg Tacke (Simon-Kucher), 2016. Zahlungsbereitschaft vor dem Bauen erheben; vier Arten des Scheiterns: Feature Shock, Minivation, Hidden Gem, Undead; Segmentierung nach WTP, Bündelung mit Leader/Filler/Killer, Preismodell vor Preispunkt.</p>
+
+<h3>Der eine Move</h3>
+<p>Den Datenrequests dieser Woche eine Zeile hinzufügen: Onboarding-Funnel vom Signup bis zur ersten versendeten Rechnung, nach Signup-Quelle, mit Zeit bis zum Wertereignis.</p>]]></description>
+      <itunes:summary>Was der Onboarding-Benchmark 2026 über die Lücke zwischen Median und Top-Quartil sagt, warum die Arbeit ins LLM wandert und das CRM trotzdem wichtiger wird, und wie Zahlungsbereitschaft vor dem Produkt kommt.</itunes:summary>
+      <pubDate>Mon, 07 Sep 2026 06:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-09-07-2</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-09-07-2.mp3" length="6584837" type="audio/mpeg"/>
+      <itunes:duration>00:13:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 07.09. - CRM vor dem Scoring, ROI-Ära, Mom Test</title>
       <itunes:title>CRO Daily 07.09. - CRM vor dem Scoring, ROI-Ära, Mom Test</itunes:title>
