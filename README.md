@@ -2,6 +2,8 @@
 
 Taegliches Wissensbriefing als Podcast fuer Bene (CRO, easybill). Ein Scheduled Task in Claude (Cloud) recherchiert jeden Morgen, schreibt ein Zwei-Sprecher-Skript, laesst es von Gemini TTS vertonen und veroeffentlicht die MP3 ueber diesen Feed.
 
+Zwei Laeufe pro Tag mit demselben Prompt (`pipeline/TASK_PROMPT.md`): Hauptlauf 04:30 Berlin, Nachlauf 06:00 Berlin. Der Prompt entscheidet am Repo-Zustand: MP3 fuer heute vorhanden = nichts tun; Skript ohne MP3 = nur vertonen; beides fehlt = voller Lauf. Der Hauptlauf committet Skript und Shownotes, bevor er vertont, damit der Nachlauf bei einem TTS-Fehler nicht neu recherchieren muss.
+
 **Feed-URL (in Apple Podcasts / Overcast per "URL hinzufuegen"):** `https://benebxr.github.io/cro-daily/feed.xml`
 
 ## Aufbau
@@ -40,7 +42,7 @@ date: 2026-09-07
 ---
 NINA: ...
 JONAS: ...
-===            (optionale Chunk-Grenze; sonst automatisch alle ~550 Woerter)
+===            (optionale Chunk-Grenze; sonst automatisch alle ~900 Woerter)
 ```
 
 Richtwert: rund 160 Woerter pro Minute; 2.700 bis 3.000 Woerter ergeben 17 bis 19 Minuten.
@@ -51,7 +53,7 @@ Der Task laeuft in Benes Cloud-Umgebung. GitHub-Zugriff kommt ueber die GitHub-V
 
 ## Gemini-Kontingent
 
-Der Free Tier von Gemini 2.5 Flash TTS erlaubt 10 Requests pro Tag; eine 18-Minuten-Folge braucht mit 800-Woerter-Chunks 4 Requests, Tests und Wiederholungen kommen dazu. Der Testlauf am 06.09.2026 ist genau daran gescheitert (RESOURCE_EXHAUSTED). Fuer den Dauerbetrieb muss im Google-AI-Studio-Projekt Billing aktiviert sein (Paid Tier 1: 1.000 Requests pro Tag, Kosten pro Folge im Cent-Bereich). Der API-Key bleibt derselbe.
+Der Free Tier von Gemini 2.5 Flash TTS erlaubt 3 Requests pro Minute und 10 pro Tag (Reset Mitternacht Pacific = 09:00 Berlin; der 04:30-Lauf faellt noch in den Kontingent-Tag des Vortags). Eine 18-Minuten-Folge braucht mit 900-Woerter-Chunks 4 Requests, Tests und Wiederholungen kommen dazu. Die Laeufe am 06.09., 08.09. und 09.09.2026 sind daran gescheitert (RESOURCE_EXHAUSTED bzw. HTTP 502). `tts.py` wartet bei 429/5xx die von Gemini genannte Zeit, pausiert 22 Sekunden zwischen Chunks und bricht bei erschoepftem Tageskontingent sofort ab. Fuer den Dauerbetrieb muss im Google-AI-Studio-Projekt Billing aktiviert sein (Paid Tier 1: 1.000 Requests pro Tag, Kosten pro Folge im Cent-Bereich). Der API-Key bleibt derselbe.
 
 ## Wenn interne easybill-Quellen dazukommen
 
