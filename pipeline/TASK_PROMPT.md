@@ -4,8 +4,13 @@ STORAGE-REGEL: Diese Session laeuft in der Cloud ohne Zugriff auf Benes Vault. B
 
 VERTRAULICHKEIT: Der Feed liegt auf GitHub Pages, unverlinkt, aber technisch oeffentlich. Deshalb: keine easybill-internen Zahlen (ARR, Churn, Headcount, Budgets, Verguetung, Namen von Kollegen oder Investoren-Interna) im Skript oder in den Shownotes. easybill wird als Anwendungsfall in allgemeinen Worten behandelt ("ein SMB-Rechnungs-SaaS vor der E-Rechnungswelle"). Oeffentlich Bekanntes (Produkt, Preise auf der Website, E-Rechnungspflicht) ist erlaubt.
 
+ZIEL: Die Folge fuer heute (Datum Europe/Berlin) liegt bis 06:30 Berlin im Feed. Diese Routine laeuft zweimal am Tag (04:30 Hauptlauf, 06:00 Nachlauf). Der Zustand im Repo entscheidet, was zu tun ist:
+- `docs/episodes/<heute>.mp3` existiert: nichts zu tun. Ein Satz als Antwort ("CRO Daily <Datum>: Folge liegt bereits im Feed."), kein Log-Eintrag.
+- `scripts/<heute>.md` existiert, aber keine MP3: Schritte 1 bis 4 ueberspringen, direkt mit Schritt 5 (Produktion) weitermachen. Das Skript wurde vom vorigen Lauf gesichert.
+- Beides fehlt: vollstaendiger Lauf ab Schritt 1.
+
 SCHRITT 0 - Vorbedingungen
-Das Repo `benebxr/cro-daily` ist dieser Routine zugeordnet und liegt bereits geklont im Arbeitsverzeichnis (pruefe mit `ls`; liegt es nicht da: `git clone https://github.com/benebxr/cro-daily.git`, der GitHub-Proxy authentifiziert). Wechsle hinein und ziehe den aktuellen Stand: `git checkout main && git pull`.
+Das Repo `benebxr/cro-daily` ist dieser Routine zugeordnet und liegt bereits geklont im Arbeitsverzeichnis (pruefe mit `ls`; liegt es nicht da: `git clone https://github.com/benebxr/cro-daily.git`, der GitHub-Proxy authentifiziert). Wechsle hinein und ziehe den aktuellen Stand: `git checkout main && git pull`. Dann den Zustand aus dem ZIEL-Absatz pruefen.
 Der Gemini-Key liegt als API-Credential der Cloud-Umgebung (Host generativelanguage.googleapis.com) und wird vom Proxy angehaengt; er ist nicht als Variable sichtbar, das ist normal. Schlaegt der TTS-Aufruf spaeter mit 401 oder 403 fehl, fehlt das Credential: dann abbrechen und in einem Satz melden "CRO Daily: Gemini-Credential der Cloud-Umgebung fehlt oder ist ungueltig, keine Folge produziert."
 
 SCHRITT 1 - Steuerseite lesen
@@ -46,6 +51,7 @@ Regeln fuer das Skript:
 - Jede Zahl stammt aus der genannten Quelle. Wenn eine Quelle nur Shownotes hat, sagt JONAS das. Im Audio Quellen nur mit Autor und Format nennen ("Kyle Poyar in Growth Unhinged"), Details stehen in den Shownotes.
 - Der Move ist der letzte Block, in einem Satz von NINA zusammengefasst, dann Schluss ohne Verabschiedungsfloskel-Kaskade.
 Shownotes nach `docs/episodes/YYYY-MM-DD.md`: drei Saetze Zusammenfassung; "## Quellen" mit Titel, Autor, Datum, URL je Zeile als "- "; "## Konzept des Tages" mit Buch/Autor; "## Der eine Move" ein Satz.
+SOFORT SICHERN: Skript und Shownotes direkt nach dem Schreiben committen und pushen, bevor die Vertonung beginnt: `git add scripts docs/episodes/YYYY-MM-DD.md && git commit -m "Entwurf YYYY-MM-DD" && git push origin main`. Der Feed liest nur `.json`-Dateien, ein Skript ohne MP3 aendert am Feed nichts. So kann der Nachlauf um 06:00 die Vertonung nachholen, ohne neu zu recherchieren.
 
 SCHRITT 5 - Produktion und Veroeffentlichung
 Im Repo-Verzeichnis:
@@ -56,10 +62,10 @@ python3 pipeline/feed.py
 git add -A && git commit -m "Folge YYYY-MM-DD" && git push origin main
 ```
 Direkt auf `main` pushen, keinen `claude/`-Branch und keinen Pull Request anlegen: der Feed wird aus `main` gebaut.
-Schlaegt `tts.py` fehl: einmal wiederholen. Schlaegt es wieder fehl: nichts pushen (keine halbe Folge, kein JSON ohne MP3), Fehlertext in den Log-Eintrag, Meldung an Bene. Nach dem Push zwei Minuten warten, dann `curl -sI <base_url aus pipeline/config.json>/episodes/YYYY-MM-DD.mp3` pruefen; HTTP 200 erwartet. Bleibt es nach drei Versuchen im Abstand von zwei Minuten bei etwas anderem: melden, nicht endlos warten.
+Schlaegt `tts.py` fehl: `sleep 600` (zehn Minuten), dann wiederholen; insgesamt bis zu drei Versuche. Schlaegt auch der dritte fehl: Skript bleibt gesichert (siehe oben), keine JSON- und keine MP3-Reste committen (`git checkout -- docs/episodes` fuer halbe Dateien, `rm -rf docs/episodes/*_work`), Fehlertext in den Log-Eintrag, Meldung an Bene. Meldet tts.py "Tageskontingent erschoepft", sofort abbrechen statt zu warten: das Kontingent kommt an diesem Tag nicht zurueck. Nach dem Push zwei Minuten warten, dann `curl -sI <base_url aus pipeline/config.json>/episodes/YYYY-MM-DD.mp3` pruefen; HTTP 200 erwartet. Bleibt es nach drei Versuchen im Abstand von zwei Minuten bei etwas anderem: melden, nicht endlos warten.
 
 SCHRITT 6 - Log und Meldung
 Auf der Notion-Seite "CRO Daily HQ" im Abschnitt "6. Themen-Log" ganz oben (direkt unter der Ueberschrift) einen Eintrag einfuegen, bestehende Eintraege unangetastet lassen:
 `**YYYY-MM-DD** (Tag N, Phase X) - <Titel>, <Dauer> Min, <Woerter> W. Hauptstueck: <Quelle, Titel>. Zweites Stueck: <...>. Radar: <a; b; c>. Konzept: <...>. Move: <...>. Verworfen: <Kandidat (Grund); ...>.`
-Bei Ausfall: `**YYYY-MM-DD** - keine Folge. Grund: <...>.`
+Bei Ausfall: `**YYYY-MM-DD** - keine Folge. Grund: <...>.` Hat der Nachlauf eine Folge fertiggestellt, deren Skript der Hauptlauf gesichert hatte, den regulaeren Eintrag schreiben und einen etwaigen Ausfall-Eintrag des Hauptlaufs vom selben Tag entfernen.
 Schlussantwort an Bene, genau ein Satz: "CRO Daily DD.MM.: <Titel>, <Dauer> Min. Move: <ein Satz>." Bei Ausfall ein Satz mit dem Grund. Keine Zusammenfassung des Vorgehens.

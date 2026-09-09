@@ -13,7 +13,7 @@ Skriptformat (Markdown):
     ---
     NINA: Satz ...
     JONAS: Satz ...
-    ===                      <- optionale Chunk-Grenze (sonst automatisch ~ alle 800 Woerter; Free Tier erlaubt nur 10 TTS-Requests pro Tag, Paid Tier 1000)
+    ===                      <- optionale Chunk-Grenze (sonst automatisch ~ alle 900 Woerter; Free Tier erlaubt 3 Requests/Minute und 10/Tag, Paid Tier 1000/Tag)
 
 Umgebung:
     GEMINI_API_KEY   optional, wenn die Cloud-Umgebung den Key als API-Credential anhaengt (Header x-goog-api-key)
@@ -37,7 +37,9 @@ VOICE_A = os.environ.get("TTS_VOICE_A", "Kore")
 VOICE_B = os.environ.get("TTS_VOICE_B", "Charon")
 MODEL = os.environ.get("TTS_MODEL", "gemini-2.5-flash-preview-tts")
 FALLBACK_MODELS = ["gemini-2.5-flash-preview-tts", "gemini-3.1-flash-tts-preview", "gemini-2.5-pro-preview-tts"]
-CHUNK_WORDS = int(os.environ.get("TTS_CHUNK_WORDS", "800"))
+CHUNK_WORDS = int(os.environ.get("TTS_CHUNK_WORDS", "900"))
+MAX_TRIES = int(os.environ.get("TTS_MAX_TRIES", "6"))
+PAUSE_BETWEEN_CHUNKS = int(os.environ.get("TTS_PAUSE", "22"))  # Free Tier: 3 Requests/Minute
 SAMPLE_RATE = 24000
 
 STYLE_PROMPT = (
@@ -111,9 +113,16 @@ def tts_chunk(dialogue: str, api_key: str, model: str, attempt_models=None) -> b
         },
     }
     last_err = None
-    for i in range(6):
+    for i in range(MAX_TRIES):
         headers = {"x-goog-api-key": api_key} if api_key else {}
-        r = requests.post(url, headers=headers, json=body, timeout=300)
+        try:
+            r = requests.post(url, headers=headers, json=body, timeout=300)
+        except requests.RequestException as e:
+            last_err = f"network: {e}"
+            wait = min(90, 10 * (i + 1))
+            print(f"  [{model}] Netzwerkfehler, retry in {wait}s", file=sys.stderr)
+            time.sleep(wait)
+            continue
         if r.status_code in (401, 403):
             raise RuntimeError(f"HTTP {r.status_code}: kein gueltiger Gemini-Key (weder GEMINI_API_KEY noch API-Credential der Umgebung): {r.text[:300]}")
         if r.status_code == 200:
@@ -124,8 +133,14 @@ def tts_chunk(dialogue: str, api_key: str, model: str, attempt_models=None) -> b
             except (KeyError, IndexError):
                 last_err = f"unexpected response: {json.dumps(data)[:500]}"
                 break
-        if r.status_code in (429, 500, 503):
-            wait = min(60, 5 * (2 ** i))
+        if r.status_code == 429 and "PerDay" in r.text:
+            # Tageskontingent (Free Tier: 10 Requests/Tag) ist weg, Warten hilft nicht.
+            raise RuntimeError(f"HTTP 429 Tageskontingent erschoepft: {r.text[:300]}")
+        if r.status_code in (429, 500, 502, 503, 504):
+            wait = min(90, 15 * (i + 1))
+            m = re.search(r"retry in (\d+(?:\.\d+)?)s", r.text)
+            if m:
+                wait = max(wait, int(float(m.group(1))) + 2)
             print(f"  [{model}] HTTP {r.status_code}, retry in {wait}s", file=sys.stderr)
             time.sleep(wait)
             last_err = r.text[:500]
@@ -176,6 +191,8 @@ def main():
         p = work / f"chunk_{idx:02d}.pcm"
         p.write_bytes(pcm)
         pcm_parts.append((p, rate))
+        if idx < len(chunks):
+            time.sleep(PAUSE_BETWEEN_CHUNKS)
 
     # Stille zwischen Chunks (0.35 s), dann MP3
     concat = work / "all.pcm"
