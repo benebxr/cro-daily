@@ -78,15 +78,28 @@ def parse_script(path: Path):
 
 
 def chunk_lines(lines):
-    chunks, cur, words = [], [], 0
-    for spk, txt in lines:
+    """Teilt in moeglichst wenige, gleich grosse Chunks (<= CHUNK_WORDS).
+
+    "===" ist eine weiche Grenze: bevorzugter Schnittpunkt, aber kein Zwang zu einem
+    eigenen Request pro Block (Free Tier: jeder Request zaehlt aufs Tageskontingent).
+    """
+    import math
+    spoken = [(s, t) for s, t in lines if s != "BREAK"]
+    total = sum(len(t.split()) for _, t in spoken)
+    if total == 0:
+        return []
+    n_chunks = max(1, math.ceil(total / CHUNK_WORDS))
+    target = total / n_chunks
+    chunks, cur, words, done = [], [], 0, 0
+    for i, (spk, txt) in enumerate(lines):
         if spk == "BREAK":
-            if cur:
+            # Weiche Grenze: schneiden, wenn der Chunk schon nahe am Ziel ist
+            if cur and words >= 0.7 * target and len(chunks) < n_chunks - 1:
                 chunks.append(cur)
-            cur, words = [], 0
+                cur, words = [], 0
             continue
         n = len(txt.split())
-        if cur and words + n > CHUNK_WORDS:
+        if cur and (words + n > CHUNK_WORDS or (words >= target and len(chunks) < n_chunks - 1)):
             chunks.append(cur)
             cur, words = [], 0
         cur.append((spk, txt))
