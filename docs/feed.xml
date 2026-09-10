@@ -12,8 +12,32 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Wed, 09 Sep 2026 16:33:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 08:55:34 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 10.09. - Freemium als Akquisekanal, KI zahlt an Mensch</title>
+      <itunes:title>CRO Daily 10.09. - Freemium als Akquisekanal, KI zahlt an Mensch</itunes:title>
+      <description><![CDATA[<p>Elena Verna rechnet vor, warum kostenlose Produktnutzung als durchgerechneter Akquisekanal mit Amortisierungsziel oft billiger ist als bezahlte Werbung, mit Zahlen von Lovable und Fraud-Leitplanken. Zweites Stück: Carles Reina erzählt bei SaaStr, wie ElevenLabs in 41 Monaten auf über 600 Millionen Dollar ARR kam und warum Vertriebsprovisionen auch dann an den Menschen gehen, wenn ein KI-Agent den Umsatz freischaltet. Dazu drei Radar-Meldungen zu SaaStrs eigenem KI-Agenten-Betrieb, den wahren Kosten von KI-Produktivität und einem Berliner Steuertech-Rollup, sowie Lean Analytics&#x27; One Metric That Matters als Konzept des Tages.</p>
+
+<h3>Quellen</h3>
+<ul><li>The Best Way to Monetize Is to Not Monetize at All, Elena Verna (Elena&#x27;s Growth Scoop), 08.09.2026, <a href="https://www.elenaverna.com/p/how-to-give-away-free-product-and">https://www.elenaverna.com/p/how-to-give-away-free-product-and</a></li>
+<li>SaaStr 877 CRO Confidential: 0 to 600M dollars in Under 4 Years, The ElevenLabs GTM Playbook with Carles Reina, Jason Lemkin (SaaStr), 09.09.2026, <a href="https://www.saastr.com/elevenlabs-went-from-0-to-600m-arr-in-41-months-when-the-ai-agent-closes-the-deal-they-still-pay-the-human-with-carles-reina-first-vp-of-revenue/">https://www.saastr.com/elevenlabs-went-from-0-to-600m-arr-in-41-months-when-the-ai-agent-closes-the-deal-they-still-pay-the-human-with-carles-reina-first-vp-of-revenue/</a></li>
+<li>Meet Our Agents: What All 20 Actually Do, What They Refuse to Do, and Every Place They&#x27;ve Failed Us, SaaStr, September 2026, <a href="https://www.saastr.com/meet-our-agents-what-all-20-actually-do-what-they-refuse-to-do-and-every-place-theyve-failed-us/">https://www.saastr.com/meet-our-agents-what-all-20-actually-do-what-they-refuse-to-do-and-every-place-theyve-failed-us/</a></li>
+<li>Is the 3x AI Productivity Gain just a Computer that Never Sleeps?, Tomasz Tunguz, 08.09.2026, <a href="https://tomtunguz.com/openai-research-acceleration-agentic-productivity/">https://tomtunguz.com/openai-research-acceleration-agentic-productivity/</a></li>
+<li>Limetax erhält 36 Millionen (DealMonitor), deutsche-startups.de, 09.09.2026, <a href="https://www.deutsche-startups.de/2026/09/09/limetax-erhaelt-36-millionen/">https://www.deutsche-startups.de/2026/09/09/limetax-erhaelt-36-millionen/</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+<p>One Metric That Matters aus &quot;Lean Analytics&quot; von Alistair Croll und Benjamin Yoskovitz (O&#x27;Reilly, 2013).</p>
+
+<h3>Der eine Move</h3>
+<p>Für einen bestehenden kostenlosen Berührungspunkt mit dem meisten Traffic, zum Beispiel eine kostenlose Rechnungsvorlage oder ein Prüftool, eine Amortisierung innerhalb von drei Monaten als einzige Erfolgskennzahl festlegen und diese Zahl parallel zum laufenden SEA-Holdout mitlaufen lassen, damit bezahlte und kostenlose Kanäle nach demselben Maßstab verglichen werden.</p>]]></description>
+      <itunes:summary>Warum die beste Monetarisierung manchmal keine ist, wie ElevenLabs seine Vertriebsprovisionen gegen KI-Agenten abgesichert hat, und welche eine Kennzahl über einen Freemium-Test entscheidet.</itunes:summary>
+      <pubDate>Thu, 10 Sep 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-09-10</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-09-10.mp3" length="7727225" type="audio/mpeg"/>
+      <itunes:duration>00:16:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 09.09. - Revenue-OS in Claude Code, Button-Preisschild, Twymans Gesetz</title>
       <itunes:title>CRO Daily 09.09. - Revenue-OS in Claude Code, Button-Preisschild, Twymans Gesetz</itunes:title>

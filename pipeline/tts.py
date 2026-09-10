@@ -193,8 +193,13 @@ def main():
                 break
             except RuntimeError as e:
                 print(f"  Fehler mit {model}: {e}", file=sys.stderr)
+                # Nur wenn das Hauptmodell sein Tageskontingent meldet, ist der Tag verloren.
+                # Fallback-Modelle haben im Free Tier oft Limit 0 und melden das immer; das sagt nichts ueber das Hauptmodell.
+                if "Tageskontingent erschoepft" in str(e) and model == models[0]:
+                    print("FEHLER: Tageskontingent erschoepft (Hauptmodell), Abbruch.", file=sys.stderr)
+                    sys.exit(5)
         if pcm is None:
-            print("FEHLER: TTS fuer Chunk fehlgeschlagen, alle Modelle.", file=sys.stderr)
+            print("FEHLER: TTS fuer Chunk fehlgeschlagen, alle Modelle (voruebergehend, Wiederholung sinnvoll).", file=sys.stderr)
             sys.exit(4)
         # mime ist normalerweise audio/L16;codec=pcm;rate=24000
         rate = SAMPLE_RATE
