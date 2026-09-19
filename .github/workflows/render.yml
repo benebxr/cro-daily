@@ -1,0 +1,121 @@
+name: CRO Daily rendern
+
+# Vertont jedes Skript in scripts/YYYY-MM-DD.md, zu dem noch keine docs/episodes/YYYY-MM-DD.mp3 existiert,
+# baut den Feed neu und pusht auf main. Laeuft bei jedem Push eines Skripts, per Zeitplan als Nachlauf
+# und von Hand (workflow_dispatch). Braucht das Repository-Secret GEMINI_API_KEY.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/*.md"
+      - "pipeline/**"
+      - ".github/workflows/render.yml"
+  schedule:
+    # UTC. 03:05 = 05:05 Berlin (Sommerzeit), Nachlauf falls der Push-Lauf scheiterte; 05:05 = 07:05 Berlin zweiter Nachlauf.
+    - cron: "5 3 * * *"
+    - cron: "5 5 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Nur dieses Skript vertonen (YYYY-MM-DD); leer = alle ohne MP3, neuestes zuerst"
+        required: false
+        default: ""
+      limit:
+        description: "Maximal so viele Folgen in diesem Lauf (Gemini Free Tier: 10 Requests/Tag, 4 pro Folge)"
+        required: false
+        default: "1"
+
+concurrency:
+  group: render-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Offene Skripte bestimmen
+        id: todo
+        shell: bash
+        run: |
+          set -euo pipefail
+          want="${{ github.event.inputs.date || '' }}"
+          limit="${{ github.event.inputs.limit || '1' }}"
+          list=""
+          for f in $(ls scripts/????-??-??*.md 2>/dev/null | sort -r); do
+            stem=$(basename "$f" .md)
+            if [ -n "$want" ] && [ "$stem" != "$want" ]; then continue; fi
+            if [ ! -f "docs/episodes/$stem.mp3" ]; then
+              list="$list $stem"
+            fi
+          done
+          # Aeltere Entwuerfe als 3 Tage nicht automatisch nachholen (nur per workflow_dispatch mit date)
+          if [ -z "$want" ]; then
+            cutoff=$(date -u -d '3 days ago' +%Y-%m-%d)
+            filtered=""
+            for s in $list; do
+              d=${s:0:10}
+              if [[ "$d" > "$cutoff" || "$d" == "$cutoff" ]]; then filtered="$filtered $s"; fi
+            done
+            list="$filtered"
+          fi
+          list=$(echo $list | tr ' ' '\n' | head -n "$limit" | tr '\n' ' ')
+          echo "stems=$list" >> "$GITHUB_OUTPUT"
+          echo "Zu vertonen: [$list]"
+
+      - name: Abhaengigkeiten
+        if: steps.todo.outputs.stems != ''
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+          pip install -q requests
+
+      - name: Vertonen und Feed bauen
+        if: steps.todo.outputs.stems != ''
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TTS_MAX_TRIES: "4"
+        shell: bash
+        run: |
+          set -uo pipefail
+          if [ -z "${GEMINI_API_KEY:-}" ]; then
+            echo "::error::Secret GEMINI_API_KEY fehlt (Repo -> Settings -> Secrets and variables -> Actions)."
+            exit 1
+          fi
+          ok=0; fail=0
+          for stem in ${{ steps.todo.outputs.stems }}; do
+            echo "=== $stem"
+            if python3 pipeline/tts.py "scripts/$stem.md" "docs/episodes/$stem.mp3"; then
+              ok=$((ok+1))
+            else
+              code=$?
+              fail=$((fail+1))
+              rm -rf "docs/episodes/${stem}_work" "docs/episodes/$stem.mp3" "docs/episodes/$stem.json"
+              if [ "$code" = "5" ]; then echo "::warning::Gemini-Tageskontingent erschoepft, Abbruch fuer heute."; break; fi
+            fi
+          done
+          python3 pipeline/feed.py
+          echo "ok=$ok fail=$fail"
+          echo "ok=$ok" >> "$GITHUB_OUTPUT"
+          [ "$ok" -gt 0 ] || [ "$fail" -eq 0 ]
+
+      - name: Commit und Push
+        if: steps.todo.outputs.stems != ''
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "cro-daily-bot"
+          git config user.email "cro-daily-bot@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then echo "Nichts zu committen."; exit 0; fi
+          stems="${{ steps.todo.outputs.stems }}"
+          git commit -m "Folge${stems% } (Action)"
+          git pull --rebase origin main
+          git push origin main
