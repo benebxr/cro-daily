@@ -1,4 +1,4 @@
-CRO Daily: taegliche Podcast-Folge fuer Bene (CRO bei easybill). Du produzierst heute eine Folge von Recherche bis MP3 im Feed. Arbeite die Schritte vollstaendig ab, ohne Rueckfragen; niemand liest mit.
+CRO Daily: taegliche Podcast-Folge fuer Bene (CRO bei easybill). Du recherchierst und schreibst heute die Folge; vertont wird sie von einer GitHub Action. Arbeite die Schritte vollstaendig ab, ohne Rueckfragen; niemand liest mit.
 
 STORAGE-REGEL: Diese Session laeuft in der Cloud ohne Zugriff auf Benes Vault. Behaupte nichts ueber Projekt-, Mandats- oder Trainingsstatus. Das Werkprodukt (Skript, Shownotes, MP3) landet im GitHub-Repo `cro-daily`; die Akte im Vault ist `Business Thought Partner/Business Thought Partner/cro-daily/` und wird von dort aus dem Repo nachgezogen, nicht von dir.
 
@@ -12,7 +12,7 @@ ZIEL: Die Folge fuer heute (Datum Europe/Berlin) liegt bis 06:30 Berlin im Feed.
 
 SCHRITT 0 - Vorbedingungen
 Das Repo `benebxr/cro-daily` ist dieser Routine zugeordnet und liegt bereits geklont im Arbeitsverzeichnis (pruefe mit `ls`; liegt es nicht da: `git clone https://github.com/benebxr/cro-daily.git`, der GitHub-Proxy authentifiziert). Wechsle hinein und ziehe den aktuellen Stand: `git checkout main && git pull`. Dann den Zustand aus dem ZIEL-Absatz pruefen.
-Der Gemini-Key liegt als API-Credential der Cloud-Umgebung (Host generativelanguage.googleapis.com) und wird vom Proxy angehaengt; er ist nicht als Variable sichtbar, das ist normal. Schlaegt der TTS-Aufruf spaeter mit 401 oder 403 fehl, fehlt das Credential: dann abbrechen und in einem Satz melden "CRO Daily: Gemini-Credential der Cloud-Umgebung fehlt oder ist ungueltig, keine Folge produziert."
+Die Vertonung braucht in dieser Umgebung keinen Gemini-Key; er liegt als Secret im Repo und wird nur von der Action benutzt.
 
 SCHRITT 1 - Steuerseite lesen
 a) Notion-Seite "CRO Daily HQ" (ID 3d37a10d-51e5-81d5-a048-d8a72951d43b) vollstaendig lesen. Sie ist kanonisch: Hoererprofil, Themenprofil mit 90-Tage-Kalender, Format-Vertrag, Quellenlisten 4a-4g, Feedback von Bene, Themen-Log.
@@ -52,7 +52,7 @@ Regeln fuer das Skript:
 - Jede Zahl stammt aus der genannten Quelle. Wenn eine Quelle nur Shownotes hat, sagt JONAS das. Im Audio Quellen nur mit Autor und Format nennen ("Kyle Poyar in Growth Unhinged"), Details stehen in den Shownotes.
 - Der Move ist der letzte Block, in einem Satz von NINA zusammengefasst, dann Schluss ohne Verabschiedungsfloskel-Kaskade.
 Shownotes nach `docs/episodes/YYYY-MM-DD.md`: drei Saetze Zusammenfassung; "## Quellen" mit Titel, Autor, Datum, URL je Zeile als "- "; "## Konzept des Tages" mit Buch/Autor; "## Der eine Move" ein Satz.
-SOFORT SICHERN: Skript und Shownotes direkt nach dem Schreiben committen und pushen, bevor die Vertonung beginnt: `git add scripts docs/episodes/YYYY-MM-DD.md && git commit -m "Entwurf YYYY-MM-DD" && git push origin main`. Der Feed liest nur `.json`-Dateien, ein Skript ohne MP3 aendert am Feed nichts. So kann der Nachlauf um 06:00 die Vertonung nachholen, ohne neu zu recherchieren.
+SOFORT SICHERN: Skript und Shownotes direkt nach dem Schreiben committen und pushen: `git add scripts docs/episodes/YYYY-MM-DD.md && git commit -m "Entwurf YYYY-MM-DD" && git push origin main`. Dieser Push startet die Render-Action. Der Feed liest nur `.json`-Dateien, ein Skript ohne MP3 aendert am Feed nichts.
 
 SCHRITT 5 - Auf die Vertonung warten
 Der Push des Entwurfs (Schritt 4) hat die GitHub Action gestartet; sie braucht fuer eine Folge etwa 6 bis 8 Minuten. Pruefe alle zwei Minuten, hoechstens 20 Minuten lang, ob `https://benebxr.github.io/cro-daily/episodes/YYYY-MM-DD.json` mit HTTP 200 antwortet (`curl -s -o /dev/null -w "%{http_code}"`; GitHub Pages braucht nach dem Push der Action noch ein bis zwei Minuten). Antwortet sie: `git pull`, Dauer und Woerter aus der JSON lesen, weiter mit Schritt 6.
