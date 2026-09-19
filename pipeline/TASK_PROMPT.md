@@ -4,9 +4,10 @@ STORAGE-REGEL: Diese Session laeuft in der Cloud ohne Zugriff auf Benes Vault. B
 
 VERTRAULICHKEIT: Der Feed liegt auf GitHub Pages, unverlinkt, aber technisch oeffentlich. Deshalb: keine easybill-internen Zahlen (ARR, Churn, Headcount, Budgets, Verguetung, Namen von Kollegen oder Investoren-Interna) im Skript oder in den Shownotes. easybill wird als Anwendungsfall in allgemeinen Worten behandelt ("ein SMB-Rechnungs-SaaS vor der E-Rechnungswelle"). Oeffentlich Bekanntes (Produkt, Preise auf der Website, E-Rechnungspflicht) ist erlaubt.
 
-ZIEL: Die Folge fuer heute (Datum Europe/Berlin) liegt bis 06:30 Berlin im Feed. Diese Routine laeuft zweimal am Tag (04:30 Hauptlauf, 06:00 Nachlauf). Der Zustand im Repo entscheidet, was zu tun ist:
-- `docs/episodes/<heute>.mp3` existiert: nichts zu tun. Ein Satz als Antwort ("CRO Daily <Datum>: Folge liegt bereits im Feed."), kein Log-Eintrag.
-- `scripts/<heute>.md` existiert, aber keine MP3: Schritte 1 bis 4 ueberspringen, direkt mit Schritt 5 (Produktion) weitermachen. Das Skript wurde vom vorigen Lauf gesichert.
+ZIEL: Die Folge fuer heute (Datum Europe/Berlin) liegt bis 06:30 Berlin im Feed. Arbeitsteilung: Diese Routine recherchiert, schreibt Skript und Shownotes und pusht sie. Die Vertonung macht eine GitHub Action im Repo (`.github/workflows/render.yml`), die bei jedem Push eines Skripts startet und zusaetzlich um 05:05 und 07:05 Berlin nachlaeuft. Du rufst `pipeline/tts.py` NICHT selbst auf (die Gemini-Aufrufe scheitern aus dieser Umgebung an einem Proxy-Timeout und verbrennen Kontingent). Diese Routine laeuft zweimal am Tag (04:30 Hauptlauf, 06:00 Nachlauf). Der Zustand entscheidet, was zu tun ist:
+- `docs/episodes/<heute>.mp3` existiert UND im Themen-Log steht bereits ein regulaerer Eintrag fuer heute (mit Titel und Dauer): nichts zu tun. Ein Satz als Antwort ("CRO Daily <Datum>: Folge liegt bereits im Feed."), kein Log-Eintrag.
+- `docs/episodes/<heute>.mp3` existiert, aber im Log steht nur ein "Vertonung ausstehend"-Eintrag oder gar keiner: Schritt 6 ausfuehren (regulaeren Eintrag aus Skript, Shownotes und `docs/episodes/<heute>.json` schreiben, den Ausstehend-Eintrag ersetzen).
+- `scripts/<heute>.md` existiert, aber keine MP3: Schritte 1 bis 4 ueberspringen, direkt mit Schritt 5 (Warten auf die Action) weitermachen.
 - Beides fehlt: vollstaendiger Lauf ab Schritt 1.
 
 SCHRITT 0 - Vorbedingungen
@@ -53,19 +54,12 @@ Regeln fuer das Skript:
 Shownotes nach `docs/episodes/YYYY-MM-DD.md`: drei Saetze Zusammenfassung; "## Quellen" mit Titel, Autor, Datum, URL je Zeile als "- "; "## Konzept des Tages" mit Buch/Autor; "## Der eine Move" ein Satz.
 SOFORT SICHERN: Skript und Shownotes direkt nach dem Schreiben committen und pushen, bevor die Vertonung beginnt: `git add scripts docs/episodes/YYYY-MM-DD.md && git commit -m "Entwurf YYYY-MM-DD" && git push origin main`. Der Feed liest nur `.json`-Dateien, ein Skript ohne MP3 aendert am Feed nichts. So kann der Nachlauf um 06:00 die Vertonung nachholen, ohne neu zu recherchieren.
 
-SCHRITT 5 - Produktion und Veroeffentlichung
-Im Repo-Verzeichnis:
-```
-pip install requests --break-system-packages -q
-python3 pipeline/tts.py scripts/YYYY-MM-DD.md docs/episodes/YYYY-MM-DD.mp3
-python3 pipeline/feed.py
-git add -A && git commit -m "Folge YYYY-MM-DD" && git push origin main
-```
-Direkt auf `main` pushen, keinen `claude/`-Branch und keinen Pull Request anlegen: der Feed wird aus `main` gebaut.
-Schlaegt `tts.py` fehl: `sleep 600` (zehn Minuten), dann wiederholen; insgesamt bis zu drei Versuche. Schlaegt auch der dritte fehl: Skript bleibt gesichert (siehe oben), keine JSON- und keine MP3-Reste committen (`git checkout -- docs/episodes` fuer halbe Dateien, `rm -rf docs/episodes/*_work`), Fehlertext in den Log-Eintrag, Meldung an Bene. Endet tts.py mit Exit-Code 5 ("Tageskontingent erschoepft (Hauptmodell)"), sofort abbrechen statt zu warten: das Kontingent kommt an diesem Tag nicht zurueck. Exit-Code 4 (HTTP 502/503 oder Fallback-Modelle ohne Kontingent) ist voruebergehend: warten und wiederholen wie oben. Meldungen der Fallback-Modelle (gemini-3.1-flash-tts-preview, gemini-2.5-pro-preview-tts) ueber fehlendes Kontingent sind normal und kein Abbruchgrund. Nach dem Push zwei Minuten warten, dann `curl -sI <base_url aus pipeline/config.json>/episodes/YYYY-MM-DD.mp3` pruefen; HTTP 200 erwartet. Bleibt es nach drei Versuchen im Abstand von zwei Minuten bei etwas anderem: melden, nicht endlos warten.
+SCHRITT 5 - Auf die Vertonung warten
+Der Push des Entwurfs (Schritt 4) hat die GitHub Action gestartet; sie braucht fuer eine Folge etwa 6 bis 8 Minuten. Pruefe alle zwei Minuten, hoechstens 20 Minuten lang, ob `https://benebxr.github.io/cro-daily/episodes/YYYY-MM-DD.json` mit HTTP 200 antwortet (`curl -s -o /dev/null -w "%{http_code}"`; GitHub Pages braucht nach dem Push der Action noch ein bis zwei Minuten). Antwortet sie: `git pull`, Dauer und Woerter aus der JSON lesen, weiter mit Schritt 6.
+Antwortet sie nach 20 Minuten nicht: im Themen-Log den Eintrag `**YYYY-MM-DD** - Vertonung ausstehend. Skript gesichert (<Titel>, <Woerter> W); Action hat bis <Uhrzeit> keine MP3 geliefert.` schreiben, Schlussantwort "CRO Daily DD.MM.: Skript fertig, Vertonung durch die Action noch ausstehend." und beenden. Der Nachlauf um 06:00 und die Action-Nachlaeufe um 05:05 und 07:05 holen die Vertonung nach. Nie `pipeline/tts.py` in dieser Umgebung starten.
 
 SCHRITT 6 - Log und Meldung
 Auf der Notion-Seite "CRO Daily HQ" im Abschnitt "6. Themen-Log" ganz oben (direkt unter der Ueberschrift) einen Eintrag einfuegen, bestehende Eintraege unangetastet lassen:
 `**YYYY-MM-DD** (Tag N, Phase X) - <Titel>, <Dauer> Min, <Woerter> W. Hauptstueck: <Quelle, Titel>. Zweites Stueck: <...>. Radar: <a; b; c>. Konzept: <...>. Move: <...>. Verworfen: <Kandidat (Grund); ...>.`
-Bei Ausfall: `**YYYY-MM-DD** - keine Folge. Grund: <...>.` Hat der Nachlauf eine Folge fertiggestellt, deren Skript der Hauptlauf gesichert hatte, den regulaeren Eintrag schreiben und einen etwaigen Ausfall-Eintrag des Hauptlaufs vom selben Tag entfernen.
+Bei Ausfall: `**YYYY-MM-DD** - keine Folge. Grund: <...>.` Liegt die MP3 inzwischen vor und es gibt fuer heute nur einen "Vertonung ausstehend"- oder Ausfall-Eintrag, den regulaeren Eintrag schreiben und den alten Eintrag vom selben Tag entfernen.
 Schlussantwort an Bene, genau ein Satz: "CRO Daily DD.MM.: <Titel>, <Dauer> Min. Move: <ein Satz>." Bei Ausfall ein Satz mit dem Grund. Keine Zusammenfassung des Vorgehens.

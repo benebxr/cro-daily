@@ -2,7 +2,7 @@
 
 Taegliches Wissensbriefing als Podcast fuer Bene (CRO, easybill). Ein Scheduled Task in Claude (Cloud) recherchiert jeden Morgen, schreibt ein Zwei-Sprecher-Skript, laesst es von Gemini TTS vertonen und veroeffentlicht die MP3 ueber diesen Feed.
 
-Zwei Laeufe pro Tag mit demselben Prompt (`pipeline/TASK_PROMPT.md`): Hauptlauf 04:30 Berlin, Nachlauf 06:00 Berlin. Der Prompt entscheidet am Repo-Zustand: MP3 fuer heute vorhanden = nichts tun; Skript ohne MP3 = nur vertonen; beides fehlt = voller Lauf. Der Hauptlauf committet Skript und Shownotes, bevor er vertont, damit der Nachlauf bei einem TTS-Fehler nicht neu recherchieren muss.
+Arbeitsteilung seit 19.09.2026: Die Claude-Routinen (04:30 Hauptlauf, 06:00 Nachlauf, Prompt in `pipeline/TASK_PROMPT.md`) recherchieren, schreiben Skript und Shownotes und pushen sie als "Entwurf". Die Vertonung macht die GitHub Action `.github/workflows/render.yml`: sie startet bei jedem Skript-Push, laeuft um 05:05 und 07:05 Berlin nach und kann per workflow_dispatch fuer ein bestimmtes Datum gestartet werden. Sie braucht das Repository-Secret `GEMINI_API_KEY`. Grund fuer die Trennung: Gemini-TTS-Aufrufe aus der Claude-Cloud-Umgebung scheitern ab etwa 30 Sekunden Antwortzeit mit HTTP 502 (Proxy), eine 700-Woerter-Passage braucht 60 bis 90 Sekunden.
 
 **Feed-URL (in Apple Podcasts / Overcast per "URL hinzufuegen"):** `https://benebxr.github.io/cro-daily/feed.xml`
 
@@ -47,7 +47,7 @@ JONAS: ...
 
 Richtwert: rund 160 Woerter pro Minute; 2.700 bis 3.000 Woerter ergeben 17 bis 19 Minuten.
 
-## Umgebung (Scheduled Task)
+## Umgebung (Scheduled Task und Action)
 
 Der Task laeuft in Benes Cloud-Umgebung. GitHub-Zugriff kommt ueber die GitHub-Verbindung des Claude-Kontos (Proxy, kein Token im Container). Der Gemini-Key liegt als API-Credential der Umgebung (Host generativelanguage.googleapis.com, Header x-goog-api-key) oder ersatzweise als Umgebungsvariable GEMINI_API_KEY. Fehlt beides, bricht tts.py mit einer klaren Meldung ab statt eine halbe Folge zu bauen.
 
