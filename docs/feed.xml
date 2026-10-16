@@ -12,8 +12,31 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Sat, 19 Sep 2026 19:02:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 19:17:56 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 16.10. - Was ein Käufer ohne Wachstum zahlt</title>
+      <itunes:title>CRO Daily 16.10. - Was ein Käufer ohne Wachstum zahlt</itunes:title>
+      <description><![CDATA[<p>Ein Käufer wie Bending Spoons zahlt für Softwareanbieter ohne Wachstumsmotor rund das Zwei bis Dreifache des wiederkehrenden Umsatzes und hält Vertrieb und Marketing bei etwa zehn Prozent vom Umsatz; der Wert eines GTM Teams ist damit die Differenz zu diesem Rechenpreis. CJ Gustafson zeigt in Teil drei seiner Quote to Cash Reihe, dass Zahlungsprobleme häufig aus technischen Fehlern entstehen und das Inkasso vor der Unterschrift beginnt. Das Radar bringt Lemkins Marktbild für Unternehmen unter einer Milliarde Dollar wiederkehrendem Umsatz, die Preissenkung bei Haiku und die Zukäufe von Factorial; das Konzept ist The Outsiders.</p>
+
+<h3>Quellen</h3>
+<ul><li>&quot;5 Interesting Learnings from Bending Spoons at $2.8 Billion in Revenue: 126% Growth, 3% Organic Growth, and $1.08 Billion of ARR Bought in 37 Days&quot;, Jason Lemkin, SaaStr, 15.10.2026 laut Feed (Zusammenfassung des Volltexts; Zahlen aus dem Artikel und den dort zitierten Berichten, nicht gegen Originalquellen geprüft; die Renditerechnung auf rund 2,2x ARR stammt von Lemkin), <a href="https://www.saastr.com/5-interesting-learnings-from-bending-spoons-at-2-8-billion-in-revenue-126-growth-3-organic-growth-and-1-08-billion-of-arr-bought-in-37-days/">https://www.saastr.com/5-interesting-learnings-from-bending-spoons-at-2-8-billion-in-revenue-126-growth-3-organic-growth-and-1-08-billion-of-arr-bought-in-37-days/</a></li>
+<li>&quot;Your Complete Guide to Quote to Cash: Part 3&quot;, CJ Gustafson, Mostly Metrics, 15.10.2026 laut Startseite (Zusammenfassung des Volltexts, ohne Bezahlschranke lesbar; Praxisleitfaden ohne Benchmarks), <a href="https://www.mostlymetrics.com/p/your-complete-guide-to-quote-to-cash-part-3">https://www.mostlymetrics.com/p/your-complete-guide-to-quote-to-cash-part-3</a></li>
+<li>&quot;Meta Ships Muse Wonder, Jev Raises $870M 24 Days After Launch, and Anthropic Cuts Haiku 90%: The Top Takeaways From This Week&#x27;s 20VC x SaaStr&quot;, Jason Lemkin, SaaStr, 15.10.2026 (Zusammenfassung; Meinungen aus einem Podcast, Haiku Preise nicht auf der Anbieterseite geprüft), <a href="https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/">https://www.saastr.com/meta-ships-muse-wonder-jev-raises-870m-24-days-after-launch-and-anthropic-cuts-haiku-90-the-top-takeaways-from-this-weeks-20vc-x-saastr/</a></li>
+<li>&quot;#StartupTicker: Choosy, HRTech, Personio, Factorial, microagi ...&quot;, deutsche-startups.de, 15.10.2026 (Ticker; Zitat von Benjamin Visser, allygatr, einem beteiligten Investor), <a href="https://www.deutsche-startups.de/2026/10/15/choosy-hrtech-personio-factorial-microagi-tilman-au-emeram-ubitium/">https://www.deutsche-startups.de/2026/10/15/choosy-hrtech-personio-factorial-microagi-tilman-au-emeram-ubitium/</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+<p>The Outsiders, William Thorndike (2012): Kapitalallokation als Kernaufgabe, feste Mindestrenditen, kleine Zentrale; aus Modellwissen, Details im Buch prüfen. Die Übertragung auf GTM Budgets ist eine eigene Ableitung.</p>
+
+<h3>Der eine Move</h3>
+<p>Lege diese Woche eine Seite an, auf der jede laufende GTM Ausgabe mit Kosten der letzten zwölf Monate, gewonnenem wiederkehrendem Umsatz und Monaten bis zur Amortisation steht, und begründe vor der nächsten Budgetfreigabe die schwächste Zeile oder streiche sie.</p>]]></description>
+      <itunes:summary>Bending Spoons als Rechenbeispiel für den Wert eines SMB Softwareanbieters ohne Wachstumsmotor, Mostly Metrics zu Inkasso und Steuern, drei Radar Meldungen und The Outsiders.</itunes:summary>
+      <pubDate>Fri, 16 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-10-16</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-10-16.mp3" length="7901935" type="audio/mpeg"/>
+      <itunes:duration>00:16:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 19.09. - Der neue Massstab fuer SaaS</title>
       <itunes:title>CRO Daily 19.09. - Der neue Massstab fuer SaaS</itunes:title>
