@@ -12,7 +12,7 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Sat, 17 Oct 2026 07:53:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 09:15:34 +0000</lastBuildDate>
     
     <item>
       <title>CRO Daily 17.10. - Wer beim Renewal wechselt</title>
@@ -82,6 +82,30 @@
       <guid isPermaLink="false">cro-daily-2026-10-15</guid>
       <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-10-15.mp3" length="8684518" type="audio/mpeg"/>
       <itunes:duration>00:18:05</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>CRO Daily 14.10. - Der CRO, der selbst arbeitet</title>
+      <itunes:title>CRO Daily 14.10. - Der CRO, der selbst arbeitet</itunes:title>
+      <description><![CDATA[<p>Jason Lemkin vertritt die These, dass Revenue Leader ihre Funktion selbst ausüben müssen, mit vier Prüffragen für Einstellungen und einer Größenschwelle; die Aussagen sind Erfahrungswerte des Autors, keine Studie. Das zweite Stück liest PitchBook Zahlen zum schwächeren Private Equity Markt, vor allem im Mittelstand, und leitet daraus ein höheres Gewicht für Retention, freien Cash Flow und die Antwort auf das KI Risiko ab. Das Radar bringt die Theory AI Survey, Lemkins Agenten Kaufentscheidung mit unsichtbaren Ausschlüssen und den frei lesbaren Teil von Lennys Moat Framework; das Konzept ist Predictable Revenue von Ross und Tyler.</p>
+
+<h3>Quellen</h3>
+<ul><li>&quot;The #1 Sign Your New CRO, CMO, CCO, CTO Will Fail: They Aren&#x27;t Doing It Themselves&quot;, Jason Lemkin, SaaStr, 13.10.2026 (Volltext gelesen, Erfahrungsaussagen ohne Studienbasis), <a href="https://www.saastr.com/the-1-sign-your-new-cro-cmo-cco-cto-will-fail-they-arent-doing-it-themselves/">https://www.saastr.com/the-1-sign-your-new-cro-cmo-cco-cto-will-fail-they-arent-doing-it-themselves/</a></li>
+<li>&quot;Private Equity Fundraising Is Down for the Fourth Year in a Row. Selling Your B2B Company to PE Got Harder Again in 2026&quot;, Jason Lemkin, SaaStr, 13.10.2026 (Zahlen von PitchBook, Hochrechnung und Jahreszählung vom Autor, intern uneinheitlich), <a href="https://www.saastr.com/private-equity-fundraising-is-down-for-the-fourth-year-in-a-row-selling-your-b2b-company-to-pe-got-harder-again-in-2026/">https://www.saastr.com/private-equity-fundraising-is-down-for-the-fourth-year-in-a-row-selling-your-b2b-company-to-pe-got-harder-again-in-2026/</a></li>
+<li>&quot;The Theory 2026 AI Survey Results&quot;, Tomasz Tunguz, Theory Ventures, 13.10.2026 (455 technische Entscheider, Mehrfachauswahl, kein Käufersample für Rechnungssoftware), <a href="https://tomtunguz.com/ai-in-practice-survey-2026/">https://tomtunguz.com/ai-in-practice-survey-2026/</a></li>
+<li>&quot;Our AI Agent Picked Render Over Railway and Vercel. I&#x27;d Barely Heard of It.&quot;, Jason Lemkin, SaaStr, 12.10.2026 (Einzelfall), <a href="https://www.saastr.com/our-ai-agent-picked-render-over-railway-and-vercel-id-never-heard-of-it-thats-how-you-get-leads-in-the-agent-age/">https://www.saastr.com/our-ai-agent-picked-render-over-railway-and-vercel-id-never-heard-of-it-thats-how-you-get-leads-in-the-agent-age/</a></li>
+<li>&quot;How to tell if a startup has a moat&quot;, Lenny Rachitsky, Lenny&#x27;s Newsletter, 13.10.2026 (nur frei lesbarer Teil, Bezahlschranke), <a href="https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat">https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+<p>Predictable Revenue, Aaron Ross und Marylou Tyler (2011); aus Modellwissen, Details im Buch prüfen, die Übertragung auf Agenten und SMB Vertrieb ist eine eigene Ableitung.</p>
+
+<h3>Der eine Move</h3>
+<p>Bearbeite diese Woche selbst einen Vormittag lang eingehende Anfragen im Vertrieb oder Support, notiere die fünf häufigsten Anliegen und lege sie neben das, was dazu im CRM steht.</p>]]></description>
+      <itunes:summary>Jason Lemkin zur Regel, dass neue Revenue Leader ihre Funktion selbst ausüben müssen, PitchBook Zahlen zum schwächeren Private Equity Markt, drei Radar Meldungen und die Spezialisierung der Rollen aus Predictable Revenue.</itunes:summary>
+      <pubDate>Wed, 14 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-10-14</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-10-14.mp3" length="7924200" type="audio/mpeg"/>
+      <itunes:duration>00:16:30</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
