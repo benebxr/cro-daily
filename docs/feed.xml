@@ -12,8 +12,31 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Fri, 16 Oct 2026 19:17:56 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 02:48:34 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 17.10. - Wer beim Renewal wechselt</title>
+      <itunes:title>CRO Daily 17.10. - Wer beim Renewal wechselt</itunes:title>
+      <description><![CDATA[<p>Eine G2 Umfrage unter 1.019 B2B Entscheidern zeigt, dass Käufer von AI Agent Software Verbrauchspreise bevorzugen, aber Ausgabenkontrollen verlangen, und dass 74 Prozent beim Renewal wechseln oder eine Alternative testen würden. Ein SaaStr Test mit drei Werkzeugen auf derselben Salesforce Installation liefert gleiche Fakten, aber drei verschiedene Prioritätenlisten. Das Konzept des Tages ist das Whole Product aus Crossing the Chasm, der Move ein Preisseiten Test in den Kundengesprächen.</p>
+
+<h3>Quellen</h3>
+<ul><li>&quot;G2&#x27;s 2026 AI Agents Report: Only 9% of Buyers Think Seat Pricing Is Fair, 57% Want Usage-Based, and 74% Will Shop You at Renewal&quot;, Jason Lemkin, SaaStr, 16.10.2026 (Zusammenfassung des Volltexts; Umfragedaten von G2, Report nicht gelesen; Selbstauskunft der Befragten), <a href="https://www.saastr.com/g2s-2026-ai-agents-report-only-9-of-buyers-think-seat-pricing-is-fair-57-want-usage-based-and-74-will-shop-you-at-renewal/">https://www.saastr.com/g2s-2026-ai-agents-report-only-9-of-buyers-think-seat-pricing-is-fair-57-want-usage-based-and-74-will-shop-you-at-renewal/</a></li>
+<li>&quot;Going Headless: Claudeforce vs. Replit vs. Lovable, Agents Picking Our Vendors, and Two of Our Agents Built Their Own Inbox to Talk Behind Our Back: The Agents #016&quot;, Jason Lemkin, SaaStr, 16.10.2026 (Artikel zur Podcast Folge, Zusammenfassung des Volltexts; Angaben des SaaStr Teams, Kosten teils geschätzt), <a href="https://www.saastr.com/going-headless-claudeforce-vs-replit-vs-lovable-agents-picking-our-vendors-and-two-of-our-agents-built-their-own-inbox-to-talk-behind-our-back-the-agents-016/">https://www.saastr.com/going-headless-claudeforce-vs-replit-vs-lovable-agents-picking-our-vendors-and-two-of-our-agents-built-their-own-inbox-to-talk-behind-our-back-the-agents-016/</a></li>
+<li>&quot;What on earth is going on with AI pricing and packaging?&quot;, Elena Verna, 16.10.2026 (Text gelesen, Bilder der Preisseiten nicht), <a href="https://www.elenaverna.com/p/what-on-earth-is-going-on-with-ai">https://www.elenaverna.com/p/what-on-earth-is-going-on-with-ai</a></li>
+<li>&quot;Price War in the Chip Aisle&quot;, Tomasz Tunguz, 13.10.2026 (Feed Zusammenfassung, Zahlen nicht gegen Originalquellen geprüft), <a href="https://tomtunguz.com/intelligence-per-dollar-2026/">https://tomtunguz.com/intelligence-per-dollar-2026/</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+<p>Crossing the Chasm, Geoffrey Moore (1991): Käufergruppen, die Lücke zwischen Visionären und Pragmatikern, Whole Product; aus Modellwissen, Details im Buch prüfen. Die Übertragung auf Kanzleien und E-Rechnung ist eine eigene Ableitung.</p>
+
+<h3>Der eine Move</h3>
+<p>Lege in den nächsten fünf Kundengesprächen die Preisseite vor, lass den Kunden in einem Satz sagen, was er im Tarif bekommt und was der nächste Tarif mehr bietet, und halte die Antworten wörtlich fest.</p>]]></description>
+      <itunes:summary>G2 Studie zu Preismodellen und Renewal Risiko bei AI Agent Software, SaaStr Test mit Headless CRM, Radar zu AI Preisseiten und Modellpreisen, Crossing the Chasm und ein Preisseiten Test für die Kundengespräche.</itunes:summary>
+      <pubDate>Sat, 17 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-10-17</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-10-17.mp3" length="7539237" type="audio/mpeg"/>
+      <itunes:duration>00:15:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 16.10. - Was ein Käufer ohne Wachstum zahlt</title>
       <itunes:title>CRO Daily 16.10. - Was ein Käufer ohne Wachstum zahlt</itunes:title>
