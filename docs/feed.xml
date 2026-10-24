@@ -12,8 +12,34 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Fri, 23 Oct 2026 09:51:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 02:47:03 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 24.10. - Wenn ein Prozent die KI-Rechnung zahlt</title>
+      <itunes:title>CRO Daily 24.10. - Wenn ein Prozent die KI-Rechnung zahlt</itunes:title>
+      <description><![CDATA[<p>Jason Lemkin fasst bei SaaStr den Vortrag des Preisberaters Ulrik Lehrskov-Schmidt zusammen: Bei KI-Funktionen sind Kosten und Wert pro Konto stark schief verteilt, und beide Kurven brauchen unterschiedliche Antworten (Preisdesign gegen Nutzungsgrenzen). Ein zweiter Lemkin-Beitrag beschreibt Agent-Led Growth, also Softwarekäufe, die ein Agent vorauswählt; alle Fälle sind Einzelerfahrungen aus seinen eigenen Firmen. Im Radar stehen Anthropic-Umsatz und Preiswettbewerb, Wachstum ohne Wagniskapital und Tunguz&#x27; Vergleich von Internet- und KI-Aufbau.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>The Double Hockey Stick: Why 1% of Your Users Now Drive 75% of Your AI Costs, and What Figma, Clay, and Higgsfield Are Doing About It, Jason Lemkin (Vortrag Ulrik Lehrskov-Schmidt), SaaStr, 23.10.2026 (Feeddatum, kein Datum im Text; Zahlen sind Selbstauskunft des Beraters), <a href="https://www.saastr.com/the-double-hockey-stick-why-1-of-your-users-now-drive-75-of-your-ai-costs-and-what-figma-clay-and-higgsfield-are-doing-about-it/">https://www.saastr.com/the-double-hockey-stick-why-1-of-your-users-now-drive-75-of-your-ai-costs-and-what-figma-clay-and-higgsfield-are-doing-about-it/</a></li>
+<li>The New &quot;Ask Your Developer&quot; Is Ask Your Agent. And It&#x27;s The Marketing Battle You Have to Win Now, Jason Lemkin, SaaStr, 23.10.2026 (Feeddatum, kein Datum im Text; Einzelfälle, Vercel-Zahl berichtet), <a href="https://www.saastr.com/the-new-ask-your-developer-is-ask-your-agent/">https://www.saastr.com/the-new-ask-your-developer-is-ask-your-agent/</a></li>
+<li>20VC x SaaStr: $20M ARR and Unfundable, Anthropic&#x27;s $16.8B Quarter, and Modal at $15.75B, Jason Lemkin, SaaStr, 22.10.2026 (Feeddatum; Zahlen berichtet, nicht geprüft), <a href="https://www.saastr.com/20vc-x-saastr-20m-arr-and-unfundable-anthropics-16-8b-quarter-and-modal-at-15-75b/">https://www.saastr.com/20vc-x-saastr-20m-arr-and-unfundable-anthropics-16-8b-quarter-and-modal-at-15-75b/</a></li>
+<li>How Large is the AI Circle?, Tomasz Tunguz, tomtunguz.com, 23.10.2026 (Volltext gelesen, Fußnotenquellen nicht geprüft), <a href="https://tomtunguz.com/how-large-is-the-ai-circle/">https://tomtunguz.com/how-large-is-the-ai-circle/</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>Good Strategy Bad Strategy, Richard Rumelt (2011): der Kernel aus Diagnose, leitender Richtlinie und koordinierten Handlungen. Aus Modellwissen, nicht gegen das Buch geprüft.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Nutzung der letzten neunzig Tage pro Konto sortieren und ablesen, wie viele Konten null Nutzung haben und welchen Anteil das oberste Prozent trägt, als Diagnose für die Preisstudie.</p>]]></description>
+      <itunes:summary>Warum bei KI-Funktionen die Kosten einer Handvoll Nutzer explodieren können, wie Software-Käufer künftig ihre Agenten fragen und was Rumelts Kernel für eine Preisentscheidung bedeutet.</itunes:summary>
+      <pubDate>Sat, 24 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-10-24</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-10-24.mp3" length="7756977" type="audio/mpeg"/>
+      <itunes:duration>00:16:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 23.10. - Wenn Konten schneller fallen als Umsatz</title>
       <itunes:title>CRO Daily 23.10. - Wenn Konten schneller fallen als Umsatz</itunes:title>
