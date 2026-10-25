@@ -12,8 +12,34 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Sat, 24 Oct 2026 09:22:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 02:48:41 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 25.10. - Wenn Agenten die Kaufliste schreiben</title>
+      <itunes:title>CRO Daily 25.10. - Wenn Agenten die Kaufliste schreiben</itunes:title>
+      <description><![CDATA[<p>SaaStr beschreibt in der Reihe The Agents, wie ein Anbieter Agenten im eigenen Go-to-Market einsetzt und zugleich dafür sorgt, dass fremde Agenten ihn empfehlen; alle Fälle sind Selbstberichte. Die Onboarding-Auswertung von Produktly zeigt anhand von 464 Unternehmen, wie selten In-App-Touren zu Ende gebracht werden und wie stark Länge und Startart mit der Abschlussrate zusammenhängen. Im Radar stehen DATEV-Zahlen zur E-Rechnung und die Effizienzgeschichte von Yext, als Konzept das Warteschlangenmodell Erlang C.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>The Agent-Led Growth Playbook: A 10-Minute Inbound Booking, a 46-of-50 AEO Score, and Why First-Party Data Beats Every Signal Tool (The Agents #017), SaaStr (Jason Lemkin und Team), 24.10.2026 (Feeddatum; Volltext gelesen, Selbstberichte des Anbieters ohne unabhängige Belege; Podcast-Fassung SaaStr 883 vom 23.10.2026 nicht gehört), <a href="https://www.saastr.com/the-agent-led-growth-playbook-a-10-minute-inbound-booking-a-46-of-50-aeo-score-and-why-first-party-data-beats-every-signal-tool-the-agents-017/">https://www.saastr.com/the-agent-led-growth-playbook-a-10-minute-inbound-booking-a-46-of-50-aeo-score-and-why-first-party-data-beats-every-signal-tool-the-agents-017/</a></li>
+<li>SaaS Onboarding &amp; In-App Engagement Benchmarks 2026, Produktly (kein Autor genannt), zuletzt aktualisiert 13.08.2026 (Daten 01.01. bis 30.06.2026, 464 Unternehmen; Anbieter verkauft die ausgewertete Plattform; Korrelationen, keine Kausalität), <a href="https://produktly.com/research/saas-onboarding-benchmarks-2026">https://produktly.com/research/saas-onboarding-benchmarks-2026</a></li>
+<li>Datev mahnt Firmen zu mehr Tempo vor E-Rechnungspflicht, dpa via leinetal24.de, 17.07.2026 (Zahlen betreffen nur DATEV-Systeme), <a href="https://www.leinetal24.de/wirtschaft/datev-mahnt-firmen-zu-mehr-tempo-vor-rechnungspflicht-zr-94401707.html">https://www.leinetal24.de/wirtschaft/datev-mahnt-firmen-zu-mehr-tempo-vor-rechnungspflicht-zr-94401707.html</a></li>
+<li>$682M Public CEO: &quot;The Magic of 80% Gross Margin&quot;, Michael Walrath (Yext) bei Topline, Pavilion, 18.10.2026 (nur Folgenbeschreibung gelesen, Eigenauskunft), <a href="https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/682m-public-ceo-the-magic-of-80-gross-margin-ceo-yext-michael-walrath">https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/682m-public-ceo-the-magic-of-80-gross-margin-ceo-yext-michael-walrath</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>Erlang C (Agner Krarup Erlang, um 1917): Wartewahrscheinlichkeit und mittlere Wartezeit aus Ankunftsrate, Bearbeitungszeit und Zahl der Bearbeiter. Rechenbeispiel und 85-Prozent-Faustregel aus Modellwissen, nicht gegen eine Quelle geprüft.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Für die Spitzenstunde der letzten vier Wochen in Onboarding und Support die Last in Erlang aus Anfragen und Bearbeitungszeit berechnen, durch die anwesenden Bearbeiter teilen und die Auslastung vorlegen, bevor über Agenten oder Stellen gesprochen wird.</p>]]></description>
+      <itunes:summary>Wie SaaStr mit Agenten Inbound in zehn Minuten bucht und sich von Agenten empfehlen lässt, wie selten Onboarding-Touren zu Ende gehen und warum Erlang C die Wartezeit im Onboarding vorhersagt.</itunes:summary>
+      <pubDate>Sun, 25 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-10-25</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-10-25.mp3" length="7317487" type="audio/mpeg"/>
+      <itunes:duration>00:15:14</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 24.10. - Wenn ein Prozent die KI-Rechnung zahlt</title>
       <itunes:title>CRO Daily 24.10. - Wenn ein Prozent die KI-Rechnung zahlt</itunes:title>
