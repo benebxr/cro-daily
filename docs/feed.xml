@@ -12,8 +12,36 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Mon, 26 Oct 2026 10:53:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 03:07:47 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 27.10. - Wer antwortet auf dein Kontaktformular</title>
+      <itunes:title>CRO Daily 27.10. - Wer antwortet auf dein Kontaktformular</itunes:title>
+      <description><![CDATA[<p>Ein SaaStr-Beitrag beschreibt, wie ein Vertriebsagent am Kontaktformular Meetings bucht, nach Abschlussquote routet und nur bei Intent-Signalen aktiv wird; alle Zahlen sind Selbstauskunft des Gründers. Im zweiten Stück liefern die Blogbeiträge zum Anthropic-Börsenprospekt drei Lehrstücke zu Retention-Definition, Vertriebsquote und Umsatz pro Mitarbeiter. Im Radar stehen Microsofts Abfindungsprogramm, ein Steam-Spiel mit Warteschlange und die Kapitalkonzentration im Risikokapital, als Konzept Monetizing Innovation.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>The Simplest, Highest-ROI Place to Put an AI Agent Is Your Contact Me Form: 614 Meetings, $2M+ Closed, and 71% of a Month&#x27;s Deals, SaaStr (Jason Lemkin), 26.10.2026 (Feeddatum; Volltext gelesen; Anbieter Qualified wird beworben; Zahlen nicht unabhängig geprüft; Titel nennt mehr als 2 Mio. Dollar Abschlüsse, Text mehr als 1 Mio. Dollar; Zeiträume unscharf), <a href="https://www.saastr.com/the-simplest-highest-roi-place-to-put-an-ai-agent-is-your-contact-me-form-614-meetings-1m-closed-and-71-of-a-months-deals/">https://www.saastr.com/the-simplest-highest-roi-place-to-put-an-ai-agent-is-your-contact-me-form-614-meetings-1m-closed-and-71-of-a-months-deals/</a></li>
+<li>Anthropic S-1 Analysis: How 7 Key Metrics Stack Up, Tomasz Tunguz, 26.10.2026 (Volltext gelesen; Bruttomarge und Gesamtverpflichtungen sind eigene Berechnungen des Autors), <a href="https://tomtunguz.com/anthropics-s1-grew-eleven-fold/">https://tomtunguz.com/anthropics-s1-grew-eleven-fold/</a></li>
+<li>5 Interesting Learnings from Anthropic&#x27;s S-1 at $16.3 Billion in Half-Year Revenue: 900% NRR, $6.6M in Revenue Per Employee, and a 10% Adjusted Operating Margin, SaaStr (Jason Lemkin), 26.10.2026 (Feeddatum; Volltext gelesen; Prospekt selbst nicht gelesen), <a href="https://www.saastr.com/5-interesting-learnings-from-anthropics-s-1-at-16-3-billion-in-half-year-revenue-900-nrr-6-6m-in-revenue-per-employee-and-a-10-adjusted-operating-margin/">https://www.saastr.com/5-interesting-learnings-from-anthropics-s-1-at-16-3-billion-in-half-year-revenue-900-nrr-6-6m-in-revenue-per-employee-and-a-10-adjusted-operating-margin/</a></li>
+<li>Wegen hoher KI-Investitionen: Microsoft bietet 60.000 Mitarbeitern Abfindungen an, t3n (Jörn Brien, Bezug auf CNBC), 26.10.2026, <a href="https://t3n.de/news/ki-microsoft-abfindungen-1770007/">https://t3n.de/news/ki-microsoft-abfindungen-1770007/</a></li>
+<li>Steam: Warum Gamer ein Multiplayer-Spiel zocken, in dem sie die meiste Zeit warten müssen, t3n, 26.10.2026, <a href="https://t3n.de/news/steam-multiplayer-spiel-warten-1769873/">https://t3n.de/news/steam-multiplayer-spiel-warten-1769873/</a></li>
+<li>A Record 8,625 Startups Raised Their First Venture Round This Year, SaaStr (Jason Lemkin, nach PitchBook-Daten), Oktober 2026 (kein genaues Datum im Text; Hochrechnungen sind Rechnungen des Autors), <a href="https://www.saastr.com/a-record-8625-startups-raised-their-first-venture-round-this-year-smaller-vcs-now-have-to-find-founders-before-they-found-anything/">https://www.saastr.com/a-record-8625-startups-raised-their-first-venture-round-this-year-smaller-vcs-now-have-to-find-founders-before-they-found-anything/</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>Monetizing Innovation (Madhavan Ramanujam und Georg Tacke, 2016): Preisfragen an den Anfang der Produktentwicklung stellen, Wertmetrik, Zahlungsbereitschaft je Segment, Paketdesign. Aus Modellwissen, nicht gegen eine Quelle geprüft.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Diese Woche drei anonyme Anfragen über Kanzlei-Formular, Kontaktformular und Chat absenden und die Zeit bis zur ersten menschlichen Antwort festhalten, als Basislinie für den Scoring-Routing-Pilot.</p>]]></description>
+      <itunes:summary>Ein Vertriebsagent am Kontaktformular mit gewichtetem Routing, die Kennzahlen aus dem Anthropic-Börsenprospekt als Lehrstück für Preismetriken und Monetizing Innovation von Ramanujam und Tacke.</itunes:summary>
+      <pubDate>Tue, 27 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-10-27</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-10-27.mp3" length="7068273" type="audio/mpeg"/>
+      <itunes:duration>00:14:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 26.10. - Was ein altes Gespräch im CRM wert ist</title>
       <itunes:title>CRO Daily 26.10. - Was ein altes Gespräch im CRM wert ist</itunes:title>
