@@ -12,8 +12,31 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Wed, 28 Oct 2026 11:10:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 02:54:12 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 29.10. - Wenn die Nutzergebühr fällt, steigt der Verbrauch</title>
+      <itunes:title>CRO Daily 29.10. - Wenn die Nutzergebühr fällt, steigt der Verbrauch</itunes:title>
+      <description><![CDATA[<p>Databricks hat laut einem Gespräch mit dem Chief Revenue Officer die Gebühr pro Nutzer gestrichen und danach deutlich mehr Verbrauch gesehen, dazu Outbound mit gleich bleibender SDR-Zahl und Demos auf Branchendaten. Im zweiten Stück geht es um die Schuldenwand der Software-Branche 2028 und 2029 und was sie für Wettbewerbsbeobachtung und Talentmarkt bedeutet. Als Konzept dient die eine Kennzahl, die gerade zählt, aus Lean Analytics.</p>
+
+<h3>Quellen</h3>
+<ul><li>Databricks CRO Ron Gabrisko: 5 Interesting Learnings on Selling at a $190B AI Company, Jason Lemkin, SaaStr, Feeddatum 28.10.2026 (Zusammenfassung eines Podcast-Gesprächs mit Sam Blond, im Text kein Veröffentlichungsdatum, Zahlen Aussagen im Gespräch, nicht gegen Originale geprüft): <a href="https://www.saastr.com/databricks-cro-ron-gabrisko-5-interesting-learnings-on-selling-at-a-200b-ai-company-flat-sdr-headcount-6-10-reply-rates-and-free-seats-that-unlocked-consumption/">https://www.saastr.com/databricks-cro-ron-gabrisko-5-interesting-learnings-on-selling-at-a-200b-ai-company-flat-sdr-headcount-6-10-reply-rates-and-free-seats-that-unlocked-consumption/</a></li>
+<li>The $300 Billion Software Debt Wall, Jason Lemkin, SaaStr, Feeddatum 28.10.2026 (stützt sich auf WSJ, PitchBook, BIS, Moody&#x27;s u. a., nicht gegen Originale geprüft, Prognose): <a href="https://www.saastr.com/the-300-billion-software-debt-wall-the-big-b2b-defaults-unfortunately-havent-even-started-yet/">https://www.saastr.com/the-300-billion-software-debt-wall-the-big-b2b-defaults-unfortunately-havent-even-started-yet/</a></li>
+<li>10 Months Into AI for GTM That Actually Works, Jason Lemkin, SaaStr, Feeddatum 28.10.2026 (Aussagen des Autors und seiner Gesprächspartner, ICONIQ-Zahlen sekundär): <a href="https://www.saastr.com/10-months-into-ai-for-gtm-that-actually-works-the-cro-matters-more-than-ever-every-other-gtm-role-is-in-flux/">https://www.saastr.com/10-months-into-ai-for-gtm-that-actually-works-the-cro-matters-more-than-ever-every-other-gtm-role-is-in-flux/</a></li>
+<li>Beyond Automation at OpenAI, Tomasz Tunguz, 28.10.2026 (nur Ankündigungstext zu einem Gespräch am 06.11.): <a href="https://tomtunguz.com/arvind-kc-office-hours/">https://tomtunguz.com/arvind-kc-office-hours/</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+<p>Lean Analytics, Alistair Croll und Benjamin Yoskovitz: One Metric That Matters, die eine Kennzahl pro Phase. Aus Modellwissen, nicht aus einer heutigen Quelle.</p>
+
+<h3>Der eine Move</h3>
+<p>Nimm die letzten rund 200 Testkonten, halte fest, ob sie innerhalb von 30 Tagen bezahlt haben und welche Handlung sie in den ersten sieben Tagen vorgenommen haben, und benenne bis Freitag die eine Handlung, die Zahlende am deutlichsten von Nichtzahlenden unterscheidet.</p>]]></description>
+      <itunes:summary>Der Databricks-CRO über Preismodell, flache SDR-Zahl und Zeit beim Kunden, dazu die Schuldenwand der Software-Branche und Lean Analytics als Konzept.</itunes:summary>
+      <pubDate>Thu, 29 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-10-29</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-10-29.mp3" length="7920190" type="audio/mpeg"/>
+      <itunes:duration>00:16:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 28.10. - Wo liegt die Kopie, wenn der Agent löscht</title>
       <itunes:title>CRO Daily 28.10. - Wo liegt die Kopie, wenn der Agent löscht</itunes:title>
