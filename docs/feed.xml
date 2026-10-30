@@ -12,8 +12,31 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Thu, 29 Oct 2026 11:23:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 02:54:05 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 30.10. - Der Käufer, den dein CRM nicht kennt</title>
+      <itunes:title>CRO Daily 30.10. - Der Käufer, den dein CRM nicht kennt</itunes:title>
+      <description><![CDATA[<p>Im Hauptstück geht es um Katarina Nordins These, dass der wichtigste Käufer oft nicht im CRM steht: Auslöser, Rollen im Kaufgremium und ein Programm bei Adyen, das in keiner Attribution sichtbar war. Das zweite Stück behandelt Kyle Poyars Anleitung für Partnerschaften mit B2B-Creatorn mit Preisstaffeln, Rechenbeispiel und Regeln für Einstieg und Verlängerung, übertragen auf ein Kanzleiprogramm. Im Radar stehen die Guidewire-Zahlen und ein t3n-Erfahrungsbericht über einen Agenten, der Aufträge anlegt.</p>
+
+<h3>Quellen</h3>
+<ul><li>Your Biggest Buyer Might Never Show Up in Your CRM, SaaSiest, 29.10.2026 (Bericht über einen Vortrag von Katarina Nordin, CMO Voyado; Zahlen und Beispiele Aussagen der Rednerin, nicht geprüft): <a href="https://saasiest.com/your-biggest-buyer-might-never-show-up-in-your-crm/">https://saasiest.com/your-biggest-buyer-might-never-show-up-in-your-crm/</a></li>
+<li>Riding the B2B creator wave, Kyle Poyar, Growth Unhinged, 28.10.2026 (bezahlte Partnerschaft mit beehiiv, Zahlen Selbstauskunft und Plattformangaben, englischsprachiger Markt): <a href="https://www.growthunhinged.com/p/riding-the-b2b-creator-wave">https://www.growthunhinged.com/p/riding-the-b2b-creator-wave</a></li>
+<li>5 Interesting Learnings from Guidewire at $1.24 Billion in ARR, Jason Lemkin, SaaStr, Feeddatum 29.10.2026 (Zusammenfassung von Quartalszahlen mit Schätzungen des Autors, nicht gegen Originale geprüft): <a href="https://www.saastr.com/5-interesting-learnings-from-guidewire-at-1-24-billion-in-arr-19-growth-its-lowest-churn-ever-and-10x-arr-for-a-25-year-old-system-of-record/">https://www.saastr.com/5-interesting-learnings-from-guidewire-at-1-24-billion-in-arr-19-growth-its-lowest-churn-ever-and-10x-arr-for-a-25-year-old-system-of-record/</a></li>
+<li>Blaupause: So haben wir in Alltagssprache einen KI-Agenten erstellt, t3n, 29.10.2026 (Eigenangaben, Regeln hinter Bezahlschranke): <a href="https://t3n.de/news/ki-agenten-erstellen-ohne-entwicklerteam-1770664/">https://t3n.de/news/ki-agenten-erstellen-ohne-entwicklerteam-1770664/</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+<p>Obviously Awesome, April Dunford: Positionierung beginnt bei den Best-Fit-Kunden. Aus Modellwissen, nicht aus einer heutigen Quelle.</p>
+
+<h3>Der eine Move</h3>
+<p>Frage die letzten zehn Neukunden bis Freitag, was sich in der Woche vor der Anmeldung verändert hat und wer außer ihnen mitentschieden hat, und halte Auslöser, Mitentscheider und Vor-Alternative wörtlich in einer Tabelle fest.</p>]]></description>
+      <itunes:summary>Warum der wichtigste Käufer oft nicht im CRM steht, wie B2B-Creator Reichweite verkaufen, und Obviously Awesome als Konzept.</itunes:summary>
+      <pubDate>Fri, 30 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-10-30</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-10-30.mp3" length="7947632" type="audio/mpeg"/>
+      <itunes:duration>00:16:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 29.10. - Wenn die Nutzergebühr fällt, steigt der Verbrauch</title>
       <itunes:title>CRO Daily 29.10. - Wenn die Nutzergebühr fällt, steigt der Verbrauch</itunes:title>
