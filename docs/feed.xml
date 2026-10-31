@@ -12,8 +12,33 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Fri, 30 Oct 2026 11:15:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 02:52:46 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 31.10. - Was der Jahresvertrag verdeckt</title>
+      <itunes:title>CRO Daily 31.10. - Was der Jahresvertrag verdeckt</itunes:title>
+      <description><![CDATA[<p>Jahresverträge verschieben nach Jason Lemkin vor allem den Zeitpunkt, an dem Churn sichtbar wird, und kosten Rabatt, Inkassoaufwand und Frühwarnsignale. Google meldet für die KI-Suche mehr Anfragen, aber geringere Monetarisierung, was für bezahlte Kanäle Preis- und Sichtbarkeitsfragen aufwirft. Das Konzept des Tages, The Mom Test, liefert die Fragetechnik, um Kunden zu Bindung und Zahlweise nach ihrem Verhalten statt nach Meinungen zu befragen.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>Annual Contracts: Maybe Not All They Are Cracked Up To Be, Jason Lemkin, SaaStr, 30.10.2026 (Feeddatum), <a href="https://www.saastr.com/annual-contracts-maybe-not-all-they-are-cracked-up-to-be/">https://www.saastr.com/annual-contracts-maybe-not-all-they-are-cracked-up-to-be/</a> (Zusammenfassung des Volltexts; Zahlen von Benchmarkit, G2, HubSpot, Anthropic, Sierra, Harvey, Legora und MongoDB sind Angaben des Autors und nicht gegen Originale geprüft)</li>
+<li>KI-Suche drückt auf Werbeeinnahmen und Google will mit mehr Werbung gegensteuern, t3n, 30.10.2026, <a href="https://t3n.de/news/ki-suche-google-werbung-1770914/">https://t3n.de/news/ki-suche-google-werbung-1770914/</a> (Zusammenfassung des Artikels; Aussagen von Philipp Schindler wiedergegeben)</li>
+<li>The B2B Category the Markets &quot;Hate&quot; the Most Today: GTM, Jason Lemkin, SaaStr, 30.10.2026 (Feeddatum), <a href="https://www.saastr.com/the-b2b-category-the-markets-hate-the-most-today-gtm/">https://www.saastr.com/the-b2b-category-the-markets-hate-the-most-today-gtm/</a> (Zusammenfassung des Volltexts; Bewertungsmultiples und Finanzierungsangaben vom Autor, nicht nachgerechnet)</li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>The Mom Test, Rob Fitzpatrick (aus Modellwissen, nicht aus den Quellen des Tages): Fragen zu konkretem vergangenem Verhalten statt zu Meinungen über die Zukunft; Komplimente und Absichtserklärungen sind schlechte Daten, Zeit, Geld und Zusagen gute.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Bis Freitag erste Verlängerungsquote und Nutzung der letzten neunzig Tage für Jahres-, Monats- und Rabattkunden nebeneinanderlegen und drei Kunden nach ihrer letzten bereuten Bindung fragen.</p>]]></description>
+      <itunes:summary>Warum Jahresverträge Churn verschieben statt senken, was die KI-Suche für bezahlte Kanäle bedeutet und warum Kundengespräche über Vergangenes ehrlicher sind als über Zukünftiges.</itunes:summary>
+      <pubDate>Sat, 31 Oct 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-10-31</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-10-31.mp3" length="7544425" type="audio/mpeg"/>
+      <itunes:duration>00:15:42</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 30.10. - Der Käufer, den dein CRM nicht kennt</title>
       <itunes:title>CRO Daily 30.10. - Der Käufer, den dein CRM nicht kennt</itunes:title>
