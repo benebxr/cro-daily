@@ -12,8 +12,34 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Sat, 31 Oct 2026 10:48:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 02:53:15 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 01.11. - Wenn das Budget wandert</title>
+      <itunes:title>CRO Daily 01.11. - Wenn das Budget wandert</itunes:title>
+      <description><![CDATA[<p>Das Softwarebudget wächst, aber das Geld wandert zu agentischen, ergebnisbasiert abgerechneten Produkten und weg von Lizenzen pro Nutzer, wie Jason Lemkin an ServiceNow und Sierra zeigt. CJ Gustafson macht an Anthropics Prospekt sichtbar, wie stark Definitionen von Bruttomarge, Net Dollar Retention und Run Rate die Aussage einer Kennzahl verändern. Das Konzept des Tages ist das ERRC-Raster aus Blue Ocean Strategy, der Move ist eine vom Finanzbereich gegengezeichnete Definition der Net Revenue Retention.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>The SaaS Isn&#x27;t Dead. Old SaaS Is Dead: Sierra Adds $150M ARR in One Quarter While ServiceNow Drops 27% in a Day, Jason Lemkin, SaaStr, 31.10.2026 (Feeddatum), <a href="https://www.saastr.com/saas-isnt-dead-old-saas-is-dead-sierra-adds-150m-arr-in-one-quarter-while-servicenow-drops-27-in-a-day/">https://www.saastr.com/saas-isnt-dead-old-saas-is-dead-sierra-adds-150m-arr-in-one-quarter-while-servicenow-drops-27-in-a-day/</a> (Zusammenfassung des Volltexts; der Beitrag nennt kein Datum; Marktzahlen von Gartner und IDC, Sierra- und ServiceNow-Zahlen sind Angaben des Autors bzw. der Unternehmen, nicht gegen Originale geprüft; der Restwachstum-Wert von etwa sechs Prozent ist eine grobe Schätzung des Autors)</li>
+<li>How Anthropic Measures Net Dollar Retention, Run Rate Revenue, and Gross Margin, CJ Gustafson, Mostly Metrics, 29.10.2026 (Datum laut Übersichtsseite, im Beitrag nicht genannt), <a href="https://www.mostlymetrics.com/p/how-anthropic-measures-net-dollar-retention-run-rate-revenue-and-gross-margin">https://www.mostlymetrics.com/p/how-anthropic-measures-net-dollar-retention-run-rate-revenue-and-gross-margin</a> (Zusammenfassung des Volltexts; Rechnungen sind Näherungen des Autors auf Basis des Prospekts, nicht im Original geprüft; die genannte Net Dollar Retention von 900 Prozent stammt aus einem Teaser zu einem anderen Beitrag)</li>
+<li>E-Rechnung Pflicht 2027: Take-aways vom E-Rechnungsgipfel 2026, Sage, 14.07.2026, <a href="https://www.sage.com/de-de/blog/e-rechnung-pflicht-2027/">https://www.sage.com/de-de/blog/e-rechnung-pflicht-2027/</a> (Herstellerbeitrag; Studienzahlen von Sage und einer Verbandsumfrage mit 143 Befragten, nicht geprüft)</li>
+<li>Anwendungsschreiben des Bundesfinanzministeriums vom 15.10.2026 zur elektronischen Rechnung, nur erwähnt in einer einzelnen Fundstelle, <a href="https://ms-aktuell.de/welt/e-rechnungspflicht-27-10-2026/">https://ms-aktuell.de/welt/e-rechnungspflicht-27-10-2026/</a> (nicht abrufbar und nicht bestätigt; Primärquelle vor Verwendung prüfen)</li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>Blue Ocean Strategy, W. Chan Kim und Renée Mauborgne, ERRC-Raster mit den Fragen Eliminate, Reduce, Raise, Create (aus Modellwissen, nicht aus den Quellen des Tages).</p>
+
+<h3>Der eine Move</h3>
+
+<p>Bis Freitag eine einseitige, vom Finanzbereich gegengezeichnete Definition der Net Revenue Retention festlegen und die Zahl der letzten zwölf Monate mit und ohne die kleinsten Konten nebeneinanderlegen.</p>]]></description>
+      <itunes:summary>Warum das Softwarebudget wächst und Seat-Anbieter trotzdem verlieren, wie Anthropic seine Kennzahlen definiert und warum jede Definition eine Entscheidung ist.</itunes:summary>
+      <pubDate>Sun, 01 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-01</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-01.mp3" length="7863522" type="audio/mpeg"/>
+      <itunes:duration>00:16:22</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 31.10. - Was der Jahresvertrag verdeckt</title>
       <itunes:title>CRO Daily 31.10. - Was der Jahresvertrag verdeckt</itunes:title>
