@@ -12,8 +12,30 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Wed, 04 Nov 2026 12:51:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 02:51:02 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 05.11. - Features auspacken, Umsatz prüfen</title>
+      <itunes:title>CRO Daily 05.11. - Features auspacken, Umsatz prüfen</itunes:title>
+      <description><![CDATA[<p>Die Studie von Irrational Labs, veröffentlicht in Growth Unhinged, zeigt mit 1.014 US-Softwarekäufern: Wer ein Produkt als Team von Agenten beschreibt, weckt mehr Kaufinteresse als bei einem einzelnen Agenten, bei identischen Funktionen. Jason Lemkin liefert einen einfachen Test, ob der Umsatz an wenigen Großkunden hängt, die nicht mehr wachsen. Dazu kommen zwei Radar-Meldungen zu Budgets für Unternehmens-KI und das Konzept Category Design.</p>
+
+<h3>Quellen</h3>
+<ul><li>Isabel Macdonald (Irrational Labs) in Kyle Poyar, Growth Unhinged: Your customers don&#x27;t just want an agent. They want agents. 04.11.2026. <a href="https://www.growthunhinged.com/p/ai-agent-messaging-study">https://www.growthunhinged.com/p/ai-agent-messaging-study</a> (Volltext per Mail; Newsletter-Ausgabe gesponsert von Metronome; Umfrage, kein beobachtetes Kaufverhalten)</li>
+<li>Jason Lemkin, SaaStr: The Top 1% of AI Spenders Stalled in Q3. So Did Anthropic&#x27;s Dollar Growth. 04.11.2026. <a href="https://www.saastr.com/the-top-1-of-ai-spenders-stalled-in-q3-so-did-anthropics-dollar-growth/">https://www.saastr.com/the-top-1-of-ai-spenders-stalled-in-q3-so-did-anthropics-dollar-growth/</a> (Zahlen aus dem Beitrag, nicht gegen Ramp und Börsenunterlage geprüft)</li>
+<li>Jason Lemkin, SaaStr: AI Spend Hit $177 Billion This Year. Only 22% of It Came Out of Software Budgets. 04.11.2026. <a href="https://www.saastr.com/ai-spend-hit-177-billion-this-year-only-22-of-it-came-out-of-software-budgets/">https://www.saastr.com/ai-spend-hit-177-billion-this-year-only-22-of-it-came-out-of-software-budgets/</a> (Zusammenfassung des Menlo-Ventures-Berichts; Menlo ist an genannten Firmen beteiligt; US-Großunternehmen)</li>
+</ul>
+<h3>Konzept des Tages</h3>
+<p>Category Design aus Play Bigger (Al Ramadan, Dave Peterson, Christopher Lochhead, Kevin Maney), aus Modellwissen.</p>
+
+<h3>Der eine Move</h3>
+<p>Diese Woche eine zweite Version der wichtigsten Seite für die Januarwelle mit drei bis vier einzeln ausgepackten Aufgaben bauen und mit echten Besuchern gegen die bestehende Seite testen, gemessen an Teststart und abgeschlossener Einrichtung.</p>]]></description>
+      <itunes:summary>Was eine Studie mit tausendvierzehn Softwarekäufern über die Benennung von Funktionen zeigt, warum die größten Kunden den Umsatz tragen können und wie Category Design die Januarwelle rahmt.</itunes:summary>
+      <pubDate>Thu, 05 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-05</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-05.mp3" length="7467053" type="audio/mpeg"/>
+      <itunes:duration>00:15:33</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 04.11. - Partner als Burggraben, Kapazität als Grenze</title>
       <itunes:title>CRO Daily 04.11. - Partner als Burggraben, Kapazität als Grenze</itunes:title>
