@@ -12,8 +12,32 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Fri, 06 Nov 2026 12:47:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 02:51:18 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 07.11. - Der beste Mitarbeiter als Vorlage für den Agenten</title>
+      <itunes:title>CRO Daily 07.11. - Der beste Mitarbeiter als Vorlage für den Agenten</itunes:title>
+      <description><![CDATA[<p>Vercels COO beschreibt, wie ein Dreierteam aus GTM-Ingenieur, Data Scientist und bestem Mitarbeiter Lead-Qualifizierung und Support an Agenten übergeben hat, und warum der Kalender der besten Person der Engpass ist. Das dritte BMF-Schreiben zur E-Rechnung bringt vor allem Übergangserleichterungen, ohne die Fristen 2027 und 2028 zu verschieben. Dazu zwei Radar-Meldungen und Andy Groves Hebel- und Kennzahlenlogik.</p>
+
+<h3>Quellen</h3>
+<ul><li>Top 5 Learnings from Vercel&#x27;s COO: 10 SDRs Down to 1, a $5K-a-Year Lead Agent, and 93% of Support Cases Handled by AI, SaaStr (Jeanne DeWitt Grosser im Gespräch mit Jason Lemkin), 06.11.2026 (Feeddatum). <a href="https://www.saastr.com/top-5-learnings-from-vercels-coo-10-sdrs-down-to-1-a-5k-a-year-lead-agent-and-93-of-support-cases-handled-by-ai/">https://www.saastr.com/top-5-learnings-from-vercels-coo-10-sdrs-down-to-1-a-5k-a-year-lead-agent-and-93-of-support-cases-handled-by-ai/</a> (Zusammenfassung des Volltexts; alle Zahlen Selbstauskünfte von Vercel, kein Kontrollvergleich)</li>
+<li>SaaStr 885: Going from 10 to 1 SDRs. How We Deployed AI Across our Sales Org with Vercel&#x27;s COO, The Official SaaStr Podcast, 04.11.2026. <a href="https://saastr.libsyn.com/saastr-885-going-from-10-to-1-sdrs-how-we-deployed-ai-across-our-sales-org-with-vercels-coo">https://saastr.libsyn.com/saastr-885-going-from-10-to-1-sdrs-how-we-deployed-ai-across-our-sales-org-with-vercels-coo</a> (nur Shownotes)</li>
+<li>PwC Blog: Zusammenfassung des BMF-Schreibens vom 15.10.2026 zur E-Rechnung, 21.10.2026. <a href="https://blogs.pwc.de/de/steuern-und-recht/article/257417/">https://blogs.pwc.de/de/steuern-und-recht/article/257417/</a> (Zusammenfassung, Originalschreiben nicht gelesen; widersprüchliche Angaben anderer Quellen zu Datum und Zählung der Schreiben)</li>
+<li>Hector Serrano, How a 19-year-old intern built the growth engine behind this $2B AI company, Lenny&#x27;s Podcast, 01.11.2026. <a href="https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the">https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the</a> (nur Episodenbeschreibung, Volltext hinter Bezahlschranke)</li>
+<li>Dan Lee (Nooks), AI Is Rewriting Sales. Are Your GTM Teams Ready?, Topline Spotlight (Pavilion), 05.11.2026. <a href="https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-ai-is-rewriting-sales-are-your-gtm-teams-ready-with-dan-lee-of-nooks-dan-lee-co-founder-and-ceo-nooks">https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-ai-is-rewriting-sales-are-your-gtm-teams-ready-with-dan-lee-of-nooks-dan-lee-co-founder-and-ceo-nooks</a> (nur Shownotes; Anbieterperspektive)</li>
+</ul>
+<h3>Konzept des Tages</h3>
+<p>High Output Management von Andy Grove (Hebelwirkung, Leistung der Organisation als Maß, gepaarte Kennzahlen), aus Modellwissen.</p>
+
+<h3>Der eine Move</h3>
+<p>Die beste Person im Support lässt zwanzig Fälle zur E-Rechnung laut durchdenken, und daraus entsteht ein schriftlicher Ablauf mit zwei gepaarten Kennzahlen, bevor ein Agent oder Werkzeug bewertet wird.</p>]]></description>
+      <itunes:summary>Wie Vercel Lead-Qualifizierung und Support mit Agenten automatisiert hat, was das dritte BMF-Schreiben zur E-Rechnung für Rechnungssoftware klärt und warum Grove die Leistung einer Organisation als Maß setzt.</itunes:summary>
+      <pubDate>Sat, 07 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-07</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-07.mp3" length="7132989" type="audio/mpeg"/>
+      <itunes:duration>00:14:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 06.11. - Wenn Google weniger schickt, Tests ehrlich lesen</title>
       <itunes:title>CRO Daily 06.11. - Wenn Google weniger schickt, Tests ehrlich lesen</itunes:title>
