@@ -12,8 +12,31 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Sat, 07 Nov 2026 11:36:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 02:51:10 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 08.11. - Was ein Ausfall ohne Gutschrift kostet</title>
+      <itunes:title>CRO Daily 08.11. - Was ein Ausfall ohne Gutschrift kostet</itunes:title>
+      <description><![CDATA[<p>Jason Lemkin schildert bei SaaStr, wie ein Anbieter nach zwei Tagen Ausfall keine Gutschrift anbot, und rechnet vor, wie klein dieser Betrag im Vergleich zu den Folgekosten ist. Elena Verna argumentiert, dass KI die Feature-Entdeckung ersetzt und Vertrauen und Delegation zum Wachstumshebel macht. Dazu zwei Radar-Meldungen zu Gartners Softwareprognose und einer Agentenstudie für den Mittelstand sowie Michael Watkins zu den Tagen sechzig bis neunzig.</p>
+
+<h3>Quellen</h3>
+<ul><li>A Critical App We Pay For Went Down for 2 Days. They Never Offered a Credit. I Won&#x27;t Forget., Jason Lemkin, SaaStr, 07.11.2026 (Feeddatum). <a href="https://www.saastr.com/a-critical-app-we-pay-for-went-down-for-2-days-they-never-offered-a-credit-i-wont-forget/">https://www.saastr.com/a-critical-app-we-pay-for-went-down-for-2-days-they-never-offered-a-credit-i-wont-forget/</a> (Zusammenfassung des Volltexts; Erfahrungsbericht, Rechenbeispiel des Autors)</li>
+<li>The end of feature discovery as we know it., Elena Verna, Elena&#x27;s Growth Scoop, 05.11.2026. <a href="https://www.elenaverna.com/p/the-end-of-feature-discovery-as-we">https://www.elenaverna.com/p/the-end-of-feature-discovery-as-we</a> (Zusammenfassung des Volltexts; Einschätzungen der Autorin, Zahlen ohne Quelle)</li>
+<li>Gartner Sees Software Growing 14.6% to $1.68 Trillion in 2027, Jason Lemkin, SaaStr, 07.11.2026 (Feeddatum), nach Gartner-Prognose vom 21.10.2026. <a href="https://www.saastr.com/gartner-sees-software-growing-14-6-to-1-68-trillion-in-2027-models-at-117-ai-app-platforms-at-39-and-price-increases-doing-a-lot-of-the-work/">https://www.saastr.com/gartner-sees-software-growing-14-6-to-1-68-trillion-in-2027-models-at-117-ai-app-platforms-at-39-and-price-increases-doing-a-lot-of-the-work/</a> (Zusammenfassung; Gartner-Original nicht gelesen; Grafik und Text nennen abweichende Werte)</li>
+<li>Warum Rechnungen und Angebote der beste Einstieg sind, t3n (als Anzeige gekennzeichnet, Studie im Umfeld von Telekom MMS), 07.11.2026. <a href="https://t3n.de/news/ki-agenten-rechnungen-angebote-einstieg-1765900/">https://t3n.de/news/ki-agenten-rechnungen-angebote-einstieg-1765900/</a> (Studie nicht gelesen; 123 Befragte, nicht repräsentativ)</li>
+</ul>
+<h3>Konzept des Tages</h3>
+<p>The First 90 Days von Michael Watkins (STARS, Early Wins, Break-even-Point), aus Modellwissen.</p>
+
+<h3>Der eine Move</h3>
+<p>Bis Freitag auf einer halben Seite festhalten, wer eine Störung ausruft, wann die erste Kundenmail rausgeht und wie hoch die automatische Gutschrift pro Ausfalltag je Tarif ist, bevor die Januarwelle kommt.</p>]]></description>
+      <itunes:summary>Warum ein Anbieter ohne automatische Gutschrift nach einem Ausfall Vertrauen verliert, wie KI die Feature-Entdeckung ersetzt, was Gartner zu Preiserhöhungen im Softwaremarkt sagt und was Watkins für die Tage sechzig bis neunzig empfiehlt.</itunes:summary>
+      <pubDate>Sun, 08 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-08</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-08.mp3" length="7183857" type="audio/mpeg"/>
+      <itunes:duration>00:14:57</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 07.11. - Der beste Mitarbeiter als Vorlage für den Agenten</title>
       <itunes:title>CRO Daily 07.11. - Der beste Mitarbeiter als Vorlage für den Agenten</itunes:title>
