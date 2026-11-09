@@ -12,8 +12,34 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Sun, 08 Nov 2026 11:48:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 02:51:31 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 09.11. - Scoring ohne Selbstbetrug</title>
+      <itunes:title>CRO Daily 09.11. - Scoring ohne Selbstbetrug</itunes:title>
+      <description><![CDATA[<p>Ein Score ist eine Behauptung über die Zukunft und braucht eine Lesung, bevor er Geld lenkt. Kyle Poyar beschreibt, wie Clay Accounts bewertet, routet und Territorien zuschneidet, allerdings als Anbieter-Selbstbeschreibung ohne Ergebniszahlen. Jason Lemkin liefert drei Prüffragen zu Preisen bei fallenden Modellkosten, und zwei Radarmeldungen ergänzen das Bild.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>Inside Clay&#x27;s GTM machine, Kyle Poyar (mit Osman Sheikhnureldin), Growth Unhinged, 08.11.2026, <a href="https://www.growthunhinged.com/p/inside-clay-s-gtm-machine">https://www.growthunhinged.com/p/inside-clay-s-gtm-machine</a> (Newsletter von Clay unterstützt; Selbstauskunft, keine Ergebniszahlen)</li>
+<li>Jason&#x27;s Takes on This Week&#x27;s 20VC: A 72% Cost Drop on Our Own App, the $100M Acquisition Bar, and DoorDash&#x27;s Third Competitor, Jason Lemkin, SaaStr, 08.11.2026, <a href="https://www.saastr.com/jasons-takes-on-this-weeks-20vc-a-72-cost-drop-on-our-own-app-the-100m-acquisition-bar-and-doordashs-third-competitor/">https://www.saastr.com/jasons-takes-on-this-weeks-20vc-a-72-cost-drop-on-our-own-app-the-100m-acquisition-bar-and-doordashs-third-competitor/</a> (Zusammenfassung des Volltexts, Zahlen Selbstauskunft bzw. Berichte, nicht geprüft)</li>
+<li>Why Your Revenues Often Only Sort of Matter When You Get Acquired by a Strategic, Jason Lemkin, SaaStr, ohne Datum (eingebetteter Post vom 15.10.2026), <a href="https://www.saastr.com/why-your-revenues-only-sort-of-matter-when-you-get-acquired-by-a-strategic-even-though-they-are-usually-how-a-deal-is-priced/">https://www.saastr.com/why-your-revenues-only-sort-of-matter-when-you-get-acquired-by-a-strategic-even-though-they-are-usually-how-a-deal-is-priced/</a></li>
+<li>Why PMs are suddenly valuable again, Tulsee Doshi bei Lenny Rachitsky, Lenny&#x27;s Podcast, 08.11.2026, <a href="https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier">https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier</a> (nur Beschreibung gelesen)</li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>The Sales Acceleration Formula, Mark Roberge (aus Modellwissen): Intuition in Prädiktoren übersetzen und prüfen, welche tatsächlich Leistung vorhersagen.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Vor der Holdout-Lesung auf einer Seite festhalten, aus welchen Eingaben der Score besteht, welche Schwelle in welchen Pfad routet, und für die obersten zehn Prozent der Scores den tatsächlichen Anteil bezahlter Kunden gegen den Rest ausrechnen.</p>]]></description>
+      <itunes:summary>Wie Clay Accounts bewertet und routet, was fallende Modellkosten für Preise bedeuten und warum ein Score erst nach der Holdout-Lesung etwas wert ist.</itunes:summary>
+      <pubDate>Mon, 09 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-09</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-09.mp3" length="7743716" type="audio/mpeg"/>
+      <itunes:duration>00:16:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 08.11. - Was ein Ausfall ohne Gutschrift kostet</title>
       <itunes:title>CRO Daily 08.11. - Was ein Ausfall ohne Gutschrift kostet</itunes:title>
