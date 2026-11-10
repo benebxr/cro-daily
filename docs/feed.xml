@@ -12,8 +12,34 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Mon, 09 Nov 2026 13:43:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 02:50:21 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 10.11. - Umsatz pro Kopf neu gerechnet</title>
+      <itunes:title>CRO Daily 10.11. - Umsatz pro Kopf neu gerechnet</itunes:title>
+      <description><![CDATA[<p>Jason Lemkin stellt bei SaaStr die Planungsregel einer Stelle pro 200.000 bis 300.000 Dollar Neuumsatz in Frage und sammelt Beispiele für deutlich höheren Umsatz pro Mitarbeiter; die Zahlen sind teils Hochrechnungen des Autors oder Selbstauskünfte. Das zweite Stück behandelt einen geleakten ChatGPT-Analysebereich für Unternehmen (Impressions und Klicks), der noch nicht verfügbar ist. Im Radar: ein Mahnstufen-Prozess und der Aktientausch von Ada mit Dialpad.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>The New Normal in Revenue Per Employee: $237K Is the Old Median, $655K Is the New Top Tier, and Six B2B Leaders Now Clear $1.5M, Jason Lemkin, SaaStr, ca. 09.11.2026 (Zusammenfassung des Volltexts; ICONIQ-Zahlen ohne Quellenangabe zitiert, Konzernzahlen teils hochgerechnet, Anthropic und Bending Spoons Selbstauskunft), <a href="https://www.saastr.com/the-new-normal-in-revenue-per-employee-237k-is-the-median-655k-is-the-top-tier-and-six-b2b-leaders-now-clear-1-5m/">https://www.saastr.com/the-new-normal-in-revenue-per-employee-237k-is-the-median-655k-is-the-top-tier-and-six-b2b-leaders-now-clear-1-5m/</a></li>
+<li>OpenAI: So findest du bald heraus, wie oft dein Unternehmen in ChatGPT auftaucht, OnlineMarketing.de-Redaktion, t3n, 09.11.2026 (Leak eines Screenshots, Beta nicht öffentlich), <a href="https://t3n.de/news/openai-so-findest-du-bald-heraus-wie-oft-dein-unternehmen-in-chatgpt-auftaucht-1772409/">https://t3n.de/news/openai-so-findest-du-bald-heraus-wie-oft-dein-unternehmen-in-chatgpt-auftaucht-1772409/</a></li>
+<li>Dear SaaStr: What Can a Startup Do to Get Their Customers to Pay on Time?, Jason Lemkin, SaaStr, ohne Datum (Feed 09.11.2026), <a href="https://www.saastr.com/dear-saastr-what-can-a-startup-do-to-get-their-customers-to-pay-on-time/">https://www.saastr.com/dear-saastr-what-can-a-startup-do-to-get-their-customers-to-pay-on-time/</a></li>
+<li>Ada Sold to Dialpad for $430M in Stock. Is That an Exit?, Jason Lemkin, SaaStr, ohne Datum (Feed 09.11.2026; ungeprüfte Pro-forma-Zahlen), <a href="https://www.saastr.com/ada-sold-to-dialpad-for-430m-in-stock-is-that-an-exit/">https://www.saastr.com/ada-sold-to-dialpad-for-430m-in-stock-is-that-an-exit/</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>The Advantage, Patrick Lencioni: Organizational Health, sechs Fragen zur Klarheit, thematisches Ziel (aus Modellwissen).</p>
+
+<h3>Der eine Move</h3>
+
+<p>Bis Freitag für die Wave-Readiness-Review den Umsatz pro Vollzeitstelle in Sales, Marketing, Support und Customer Success der letzten vier Quartale nebeneinanderlegen, je Team drei Aufgaben für einen Agenten mit menschlicher Freigabe benennen und erst danach eine zusätzliche Stelle für die Welle beantragen.</p>]]></description>
+      <itunes:summary>Warum die Planungsregel eine Person pro zweihundert bis dreihunderttausend Dollar Neuumsatz wackelt, was ChatGPT als Search Console für Unternehmen bedeuten könnte und wie Mahnstufen Zahlungen sichern.</itunes:summary>
+      <pubDate>Tue, 10 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-10</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-10.mp3" length="7296168" type="audio/mpeg"/>
+      <itunes:duration>00:15:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 09.11. - Scoring ohne Selbstbetrug</title>
       <itunes:title>CRO Daily 09.11. - Scoring ohne Selbstbetrug</itunes:title>
