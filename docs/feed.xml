@@ -12,8 +12,35 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Wed, 11 Nov 2026 12:32:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 02:54:32 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 12.11. - Wer den Abschluss verdient hat</title>
+      <itunes:title>CRO Daily 12.11. - Wer den Abschluss verdient hat</itunes:title>
+      <description><![CDATA[<p>Kyle Poyar beschreibt in Growth Unhinged fünf GTM-Plays aus dem Feld, darunter Clays agentengestützte Attribution, die einen Google-Ads-Abschluss auf Free Trial, Netzwerk-Empfehlung und Webinare zurückführt, und eine autonome Ad-Agentur bei incident.io; übertragen auf ein SMB-Rechnungs-SaaS heißt das: vor jedem Kanal-Gate Last-Touch gegen frühe Einflüsse wie Kanzleiempfehlungen prüfen. Das zweite Stück, Jason Lemkin mit Ulrik Lehrskov-Schmidt in SaaStr, zeigt am HubSpot-Credit-Modell, wie eine Monatsrechnung von rund 1.300 auf 3.700 Dollar steigen kann, und warum Nutzungspricing vorher an echten Kundenprofilen durchgerechnet und klar einer Person zugeordnet gehört. Im Radar: Tomasz Tunguz zur Marge entlang der KI-Wertschöpfungskette, die vorläufige Einschätzung des Bundeskartellamts zum PayPal-Surcharging-Verbot und neue Claude-Funktionen für Meetings, Tabellen und Daten.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>5 GTM plays working right now, Kyle Poyar, Growth Unhinged, 11.11.2026 (Feldberichte der Operatoren, Selbstauskünfte ohne Kontrollvergleich; Volltext per Mail), <a href="https://www.growthunhinged.com/p/5-gtm-plays-working-right-now">https://www.growthunhinged.com/p/5-gtm-plays-working-right-now</a></li>
+<li>Our Agents Never Picked Canva. 10 Learnings on Agent Pricing, Getting Picked, and Security From This Week&#x27;s &quot;The Agents&quot; With Ulrik Lehrskov-Schmidt, Jason Lemkin, SaaStr, 11.11.2026 (Feeddatum; Zusammenfassung einer Podcastfolge, HubSpot-Rechnung und Portfoliozahlen sind Selbstauskunft), <a href="https://www.saastr.com/our-agents-never-picked-canva-10-learnings-on-agent-pricing-getting-picked-and-security-from-this-weeks-the-agents-with-ulrik-lehrskov-schmidt/">https://www.saastr.com/our-agents-never-picked-canva-10-learnings-on-agent-pricing-getting-picked-and-security-from-this-weeks-the-agents-with-ulrik-lehrskov-schmidt/</a></li>
+<li>Who Captures the Most Margin in AI?, Tomasz Tunguz, Blog, 11.11.2026 (Modellrechnung aus öffentlichen Angaben, keine geprüften Abschlüsse), <a href="https://tomtunguz.com/who-captures-the-most-margin-in-ai/">https://tomtunguz.com/who-captures-the-most-margin-in-ai/</a></li>
+<li>Wettbewerb in Gefahr? Warum das Bundeskartellamt Paypal unter die Lupe nimmt, Marco Engelien, t3n, 11.11.2026 (vorläufige Einschätzung, Entscheidung offen), <a href="https://t3n.de/news/paypal-bundeskartellamt-wettbewerb-1772985/">https://t3n.de/news/paypal-bundeskartellamt-wettbewerb-1772985/</a></li>
+<li>Tabellen, Whiteboards, Meetings: Mit diesen neuen Funktionen soll Claude dir die Arbeit erleichtern, Noëlle Bölling, t3n, 11.11.2026 (keine Preisangaben), <a href="https://t3n.de/news/tabellen-whiteboards-meetings-mit-diesen-neuen-funktionen-soll-claude-dir-die-arbeit-erleichtern-1772912/">https://t3n.de/news/tabellen-whiteboards-meetings-mit-diesen-neuen-funktionen-soll-claude-dir-die-arbeit-erleichtern-1772912/</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>Die Leiter der Kausalität (Assoziation, Intervention, Kontrafaktum), Judea Pearl und Dana Mackenzie, The Book of Why (2018), aus Modellwissen.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Bis Freitag zehn große Neuabschlüsse der letzten 90 Tage von Hand auf Last-Touch, ersten Kontakt und Selbstauskunft zurückverfolgen und neben jede Gate-Entscheidung schreiben, ob ihre Zahl auf Assoziation oder auf einem Holdout steht.</p>]]></description>
+      <itunes:summary>Was fünf GTM-Plays aus Growth Unhinged über Attribution, Agenten im Marketing und Event-Betrieb lehren, warum HubSpots Credit-Modell eine Warnung für jedes Nutzungspricing ist und wie man vor einem Kanal-Gate Ursache von Zufall trennt.</itunes:summary>
+      <pubDate>Thu, 12 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-12</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-12.mp3" length="7917481" type="audio/mpeg"/>
+      <itunes:duration>00:16:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 11.11. - Wie lange bindet dich die Welle</title>
       <itunes:title>CRO Daily 11.11. - Wie lange bindet dich die Welle</itunes:title>
