@@ -12,8 +12,36 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Thu, 12 Nov 2026 13:37:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 02:58:14 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 13.11. - Retention vor Reichweite</title>
+      <itunes:title>CRO Daily 13.11. - Retention vor Reichweite</itunes:title>
+      <description><![CDATA[<p>Jason Lemkin zeigt in SaaStr an öffentlichen B2B-Firmen, dass Wachstum über zwanzig Prozent mit einer Net Revenue Retention von mindestens 105 zusammenfällt und schwaches Wachstum mit höchstens 102, und erklärt den Unterschied vor allem über Seat- gegen Verbrauchspreise; für ein SMB-Rechnungs-SaaS vor der E-Rechnungswelle heißt das, die Retention der Wellenkohorte je Kanal zu messen, bevor ein Kanal-Gate grün wird. Das zweite Stück, Tommas DeVu von Lime Technologies (aufgegriffen im SaaSiest-Newsletter, Zahlen aus dem Latka-Interview vom Juni), beschreibt Professional Services als ein Drittel des Umsatzes und als Bindungsmechanismus, mit dem Hinweis, dass der Zusammenhang zwischen Beraterstunden und Churn eine Selbstauskunft ohne Zahlen ist. Im Radar: Lemkin zu Agenten als eigenem, aus dem Personalbudget bezahltem Produkt, CJ Gustafson zu KI-Ausgaben als Beschaffungsthema und Nils Vold von Verdane zu Preisdruck auf SaaS.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>$1 Billion ARR Is the New $100 Million. The Public B2B Companies Below It Show Why., Jason Lemkin, SaaStr, 12.11.2026 (Feeddatum; Marktdaten von Aventis und SEG zitiert, Auswahl der zehn Firmen durch den Autor), <a href="https://www.saastr.com/1-billion-arr-is-the-new-100-million-the-public-b2b-companies-below-it-show-why/">https://www.saastr.com/1-billion-arr-is-the-new-100-million-the-public-b2b-companies-below-it-show-why/</a></li>
+<li>What if your biggest SaaS moat isn&#x27;t software?, SaaSiest Newsletter, 12.11.2026 (Artikel zum Vortrag von Tommas DeVu, Lime Technologies; nur Teaser gelesen), <a href="https://newsletter.saasiest.com/">https://newsletter.saasiest.com/</a></li>
+<li>Founder Interview: Lime, Tommas DeVu, Nathan Latka, 23.06.2026 (Zahlen aus dem Gespräch, teils umgerechnet; Zusammenhang Stunden und Churn ohne Zahlen), <a href="https://getlatka.com/interviews/lime-tommas-devu-2026">https://getlatka.com/interviews/lime-tommas-devu-2026</a></li>
+<li>A Great B2B Agent Doubles Your ACV. Most AI Features Don&#x27;t Move It at All., Jason Lemkin, SaaStr, 12.11.2026 (Feeddatum; Verdopplung und Drei-Prozent-Adoption von einer ungenannten Portfoliofirma), <a href="https://www.saastr.com/a-great-b2b-agent-doubles-your-acv-most-ai-features-dont-move-it-at-all/">https://www.saastr.com/a-great-b2b-agent-doubles-your-acv-most-ai-features-dont-move-it-at-all/</a></li>
+<li>2026 Procurement Software and AI Spend Market Maps, CJ Gustafson, Mostly Metrics, 12.11.2026 (Report von mehreren zitierten Anbietern mitfinanziert), <a href="https://www.mostlymetrics.com/p/2026-procurement-software-and-ai-spend-market-maps">https://www.mostlymetrics.com/p/2026-procurement-software-and-ai-spend-market-maps</a></li>
+<li>The next SaaS crisis isn&#x27;t the agents, it&#x27;s pricing pressure, SaaSiest Podcast Folge 217 mit Nils Vold (Verdane), 12.11.2026 (nur Shownotes ausgewertet), <a href="https://newsletter.saasiest.com/">https://newsletter.saasiest.com/</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>Value Creation Plan aus PE-Operating-Modellen: Wertzuwachs zerlegt in Umsatzwachstum, Margenverbesserung und Multiple-Expansion, aus Modellwissen.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Bis Freitag die Net Revenue Retention je Akquisekanal-Kohorte neben die Kosten pro Neukunde schreiben, damit kein Kanal ein grünes Gate bekommt, dessen Kunden nach einem Jahr weniger zahlen als am Anfang.</p>]]></description>
+      <itunes:summary>Warum Jason Lemkin die Net Revenue Retention als Trennlinie zwischen wachsenden und stehenden B2B-Firmen liest, was Lime Technologies über Beraterstunden und Churn sagt und wie man vor einem Kanal-Gate neben den Neukunden auch die Kohorte bewertet.</itunes:summary>
+      <pubDate>Fri, 13 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-13</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-13.mp3" length="8186851" type="audio/mpeg"/>
+      <itunes:duration>00:17:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 12.11. - Wer den Abschluss verdient hat</title>
       <itunes:title>CRO Daily 12.11. - Wer den Abschluss verdient hat</itunes:title>
