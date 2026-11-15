@@ -12,8 +12,36 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Sat, 14 Nov 2026 11:59:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 02:55:42 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 15.11. - Der Agent schreibt, der Mensch gibt frei</title>
+      <itunes:title>CRO Daily 15.11. - Der Agent schreibt, der Mensch gibt frei</itunes:title>
+      <description><![CDATA[<p>Jason Lemkin beschreibt, wie der SaaStr-Agent „10K“ bei zwei sechsstelligen Sponsorenabschlüssen in einer Woche Recherche, Angebotskalkulation aus alten Rechnungen, Procurement-Vorbereitung und CRM-Pflege übernommen hat, während eine Mitarbeiterin jedes Gespräch führte und jede Schreibaktion freigab; die genannte Verdreifachung der Sponsoren-Verlängerungsquote ist eine Korrelation ohne Kontrollvergleich, die Mechanik ist übertragbar auf den Ausschnitt eines SMB-Rechnungs-SaaS vor der E-Rechnungswelle, in dem Angebote mit Sonderkonditionen von Hand entstehen. Rajeev Dham (Sapphire Ventures) sieht im Tech-Ausverkauf einen Fristen-Fehlabgleich und rät Software-Firmen ohne KI-Kern, das Kerngeschäft von einem COO im Private-Equity-Stil führen zu lassen, was für ein Commercial Quarterly zwei getrennte Spalten nahelegt. Im Radar: Affirm kauft Ratepay, SciFin sammelt 44 Mio. Dollar Seed für Pipeline-Kontext, und ein in The Neuron zitiertes P&amp;G-Feldexperiment zu KI im Team.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>Our AI VP of Revenue Can&#x27;t Close a Deal Yet. But It Co-Closed Two Six-Figure Deals in One Week., Jason Lemkin, SaaStr, 14.11.2026 (Feeddatum; Erfahrungsbericht aus dem eigenen Haus, Verlängerungsquote ohne Kontrollvergleich, Anteil des Agenten laut Autor nicht bezifferbar), <a href="https://www.saastr.com/our-ai-vp-of-revenue-cant-close-a-deal-yet-it-co-closed-two-six-figure-deals-in-one-week/">https://www.saastr.com/our-ai-vp-of-revenue-cant-close-a-deal-yet-it-co-closed-two-six-figure-deals-in-one-week/</a></li>
+<li>The Great Tech Selloff (Silicon Valley Investor Explains), Rajeev Dham mit Sam Jacobs, AJ Bruno, Asad Zaman, Topline (Pavilion), 08.11.2026 (nur Shownotes ausgewertet), <a href="https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/the-great-tech-selloff-silicon-valley-investor-explains-rajeev-dham-md-sapphire-ventures">https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/the-great-tech-selloff-silicon-valley-investor-explains-rajeev-dham-md-sapphire-ventures</a></li>
+<li>Nexi Group sells BNPL business Ratepay to Affirm, Fintech Futures, 11.2026 (Kaufpreis nicht veröffentlicht), <a href="https://www.fintechfutures.com/m-a/nexi-group-sells-ratepay-to-affirm">https://www.fintechfutures.com/m-a/nexi-group-sells-ratepay-to-affirm</a></li>
+<li>Nexi agrees Ratepay sale to Affirm, signs MoU on DACH partnership, The Paypers, 11.2026, <a href="https://thepaypers.com/mergers-aquisitions-and-investments/news/nexi-agrees-ratepay-sale-to-affirm-signs-mou-on-dach-partnership">https://thepaypers.com/mergers-aquisitions-and-investments/news/nexi-agrees-ratepay-sale-to-affirm-signs-mou-on-dach-partnership</a></li>
+<li>SaaStr AI App of the Week: SciFin, Jason Lemkin, SaaStr, 14.11.2026 (Feeddatum; keine Kunden, Preise oder Ergebnisse veröffentlicht), <a href="https://www.saastr.com/saastr-ai-app-of-the-week-scifin-the-nutanix-and-cohesity-founder-raised-44-million-to-close-the-context-gap-in-your-pipeline/">https://www.saastr.com/saastr-ai-app-of-the-week-scifin-the-nutanix-and-cohesity-founder-raised-44-million-to-close-the-context-gap-in-your-pipeline/</a></li>
+<li>Deep Dive: The Future of Work is Multiplayer, The Neuron, 14.11.2026 (gesponserte Ausgabe; zitierte Studie Organization Science, DOI 10.1287/orsc.2025.20702, nicht selbst gelesen), Newsletter per Mail</li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>Komparativer Vorteil (David Ricardo, On the Principles of Political Economy and Taxation, 1817), aus Modellwissen.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Bis Freitag drei laufende Angebote mit Sonderkonditionen Schritt für Schritt mit Minuten protokollieren, jeden Schritt als Gespräch oder Nacharbeit markieren und die Summe der Nacharbeit pro Deal in den Wave-Readiness-Review schreiben, bevor eine weitere Stelle für Januar beantragt wird.</p>]]></description>
+      <itunes:summary>Wie bei SaaStr ein KI-Agent zwei sechsstellige Sponsorenabschlüsse vorbereitet hat, während eine Verkäuferin jedes Gespräch führte und jede Schreibaktion freigab, was ein Investor von Sapphire Ventures über Software-Firmen ohne KI-Kern sagt, und warum der komparative Vorteil die richtige Frage für die Arbeitsteilung ist.</itunes:summary>
+      <pubDate>Sun, 15 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-15</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-15.mp3" length="7772531" type="audio/mpeg"/>
+      <itunes:duration>00:16:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 14.11. - Was KI-Besucher wert sind</title>
       <itunes:title>CRO Daily 14.11. - Was KI-Besucher wert sind</itunes:title>
