@@ -12,8 +12,36 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Mon, 16 Nov 2026 13:27:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 02:55:25 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 17.11. - Billiger pro Aufruf, strenger beim Testkonto</title>
+      <itunes:title>CRO Daily 17.11. - Billiger pro Aufruf, strenger beim Testkonto</itunes:title>
+      <description><![CDATA[<p>Jason Lemkin empfiehlt Firmen, die sich für Agenten neu erfinden, Agenten- und Schnittstellennutzung getrennt und deutlich billiger pro Aufruf zu bepreisen, weil zu hohe Preise sich zuerst in fallender Nutzung zeigen (SaaStr senkte bei einem Anbieter die Aufrufe um rund 90 Prozent, ohne zu kündigen); für ein SMB-Rechnungs-SaaS vor der E-Rechnungswelle folgt daraus vor allem ein Messauftrag, weil Rechnungserstellung wenig, Abruf und Abgleich aber stark elastisch sind. Claire Vo (How I AI, nur Shownotes) und eine Stripe-Sessions-Runde mit Cursor (Transkript, Anbieterzahlen) zeigen, wie KI-Testkonten mit echten Inferenzkosten missbraucht werden: 86.000 Konten eines Nutzers, rund 14 Prozent verdächtige Neukonten, Cursor schaffte die Testphase ab, Stripe rät zu Erkennung statt Abschaffung. Im Radar: Tunguz zum Databricks AI Index, Cascading Trust bei MCP-Servern laut The Neuron/VentureBeat, und Lemkins wichtigstes Warnsignal bei neuen Führungskräften.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>If You&#x27;re Refounding Your B2B Company for AI, Make Your Product Cheaper. Probably Much Cheaper., Jason Lemkin, SaaStr, 16.11.2026 (Meinungsbeitrag, Zahlen Selbstauskunft), <a href="https://www.saastr.com/if-youre-refounding-your-b2b-company-for-ai-make-your-product-cheaper-probably-much-cheaper/">https://www.saastr.com/if-youre-refounding-your-b2b-company-for-ai-make-your-product-cheaper-probably-much-cheaper/</a></li>
+<li>How I fight token fraud as a solo founder, Claire Vo, How I AI (Lenny&#x27;s Podcast Network), 16.11.2026 (nur Shownotes ausgewertet), <a href="https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo">https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo</a></li>
+<li>How AI changes the fight against fraud, Samuel Bakouch, Jacob Meltzer (Stripe), Jacob Witt (Cursor), Stripe Sessions 2026 (Transkript; Anbieterzahlen zu Radar), <a href="https://stripe.com/sessions/2026/how-ai-changes-the-fight-against-fraud">https://stripe.com/sessions/2026/how-ai-changes-the-fight-against-fraud</a></li>
+<li>Strategic Decision or Structural Advantage?, Tomasz Tunguz, 16.11.2026 (Basis Databricks AI Index, Databricks-Kundenbasis), <a href="https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/">https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/</a></li>
+<li>Nvidia reportedly supplied China via Asia (AI Skill of the Day: Audit the trust chain behind your AI agent), The Neuron, 16.11.2026, Newsletter per Mail (zitiert VentureBeat, Zahl 78,3 Prozent ohne Methodik)</li>
+<li>Dear SaaStr: What Are Some Early Signs That a New Executive Hire Isn&#x27;t Going to Be a Fit With the Rest of the Team?, Jason Lemkin, SaaStr, 16.11.2026, <a href="https://www.saastr.com/dear-saastr-what-are-some-early-signs-that-a-new-executive-hire-isnt-going-to-be-a-fit-with-the-rest-of-the-team/">https://www.saastr.com/dear-saastr-what-are-some-early-signs-that-a-new-executive-hire-isnt-going-to-be-a-fit-with-the-rest-of-the-team/</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>Jevons-Paradoxon und Rebound-Effekt (William Stanley Jevons, The Coal Question, 1865), aus Modellwissen.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Bis Freitag Aufrufe pro Konto und Woche aus den Schnittstellen der letzten neunzig Tage ziehen, die zwanzig stärksten Konten mit Nutzungstrend markieren und daraus eine Zeile Agentennutzung für das Commercial Quarterly machen, bevor dort eine Preiserhöhung für den Januar steht.</p>]]></description>
+      <itunes:summary>Warum Jason Lemkin Firmen, die sich für Agenten neu erfinden, deutlich niedrigere Preise pro Aufruf empfiehlt, was Stripe und Cursor über missbrauchte Testkonten bei KI-Produkten berichten, drei Kurzmeldungen zu Tokenpreisen, Agentensicherheit und neuen Führungskräften, und das Jevons-Paradoxon als Denkmodell dahinter.</itunes:summary>
+      <pubDate>Tue, 17 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-17</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-17.mp3" length="8334519" type="audio/mpeg"/>
+      <itunes:duration>00:17:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 16.11. - Wenn das CRM keine Oberfläche mehr hat</title>
       <itunes:title>CRO Daily 16.11. - Wenn das CRM keine Oberfläche mehr hat</itunes:title>
