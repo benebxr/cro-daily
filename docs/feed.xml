@@ -12,8 +12,36 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Wed, 18 Nov 2026 13:44:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 03:04:49 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 19.11. - Die Shortlist entsteht im Chat</title>
+      <itunes:title>CRO Daily 19.11. - Die Shortlist entsteht im Chat</itunes:title>
+      <description><![CDATA[<p>Kyle Poyar (Growth Unhinged, Daten des Partners Profound aus 27.374 Prompts) und Kevin Indig (Growth Memo, Wynter-Umfrage unter 200 Softwarekäufern) zeigen übereinstimmend, dass KI-Assistenten vor allem in der Mitte des Kaufprozesses genutzt werden: 57 Prozent der kommerziellen Prompts vergleichen konkrete Anbieter, Preis, Eignung und Integrationen sind die Prüffragen, und knapp zwei Drittel der Käufer mit Kandidaten ergänzten über den Assistenten einen weiteren Anbieter. Für ein SMB-Rechnungs-SaaS vor der E-Rechnungswelle heißt das: prüfen, ob die Antworten zu Preis, Steuerberater-Anbindung und E-Rechnungsformaten stimmen. Zweites Stück ist Jason Lemkins Werbetext für SaaStr-Sponsoring als Vorlage für ein Kanal-Gate bei Event-Budgets 2027; im Radar Anthropics Kostenstruktur laut S-1/A, die KI-Lücke zwischen großen und kleinen Firmen laut OECD und Sam Blonds zwei Fallen bei KI-Vertriebsstartups.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>The B2B buyer journey with AI, Kyle Poyar, Growth Unhinged, 18.11.2026 (Volltext per Mail; Daten von Profound, Partner und Sponsor der Ausgabe), <a href="https://www.growthunhinged.com/p/the-b2b-buyer-journey-with-ai">https://www.growthunhinged.com/p/the-b2b-buyer-journey-with-ai</a></li>
+<li>How software buyers use AI, Kevin Indig, Growth Memo, 09.11.2026 (Selbstauskunft, n=200; Autor an Wynter beteiligt, Ausgabe von AirOps gesponsert), <a href="https://www.growth-memo.com/p/how-software-buyers-use-ai">https://www.growth-memo.com/p/how-software-buyers-use-ai</a></li>
+<li>22 Reasons to Sponsor SaaStr AI 2027. 900+ Qualified Leads Is Just One of Them., Jason Lemkin, SaaStr, 18.11.2026 (Eigenwerbung des Veranstalters, Zahlen Selbstauskunft), <a href="https://www.saastr.com/22-reasons-to-sponsor-saastr-ai-2027-900-qualified-leads-is-just-one-of-them/">https://www.saastr.com/22-reasons-to-sponsor-saastr-ai-2027-900-qualified-leads-is-just-one-of-them/</a></li>
+<li>Anthropic Will Get to $100B in Revenue with ~7% of the Headcount Google and Meta Needed, Jason Lemkin, SaaStr, 18.11.2026, <a href="https://www.saastr.com/anthropic-will-get-to-100b-in-revenue-with-7-of-the-headcount-google-and-meta-needed/">https://www.saastr.com/anthropic-will-get-to-100b-in-revenue-with-7-of-the-headcount-google-and-meta-needed/</a></li>
+<li>OECD Digital Economy and Society Outlook 2026, zitiert in The Neuron, 18.11.2026 (Bericht nicht selbst gelesen), <a href="https://www.oecd.org/en/about/news/press-releases/2026/11/oecd-digital-economy-and-society-outlook-2026.html">https://www.oecd.org/en/about/news/press-releases/2026/11/oecd-digital-economy-and-society-outlook-2026.html</a></li>
+<li>SaaStr 887: I Was a VC at Founders Fund. Here&#x27;s What Everyone Gets Wrong, Sam Blond, The Official SaaStr Podcast, 18.11.2026 (nur Shownotes), <a href="https://saastr.libsyn.com/saastr-887-i-was-a-vc-at-founders-fund-heres-what-everyone-gets-wrong-with-sam-blond-ceo-of-monaco">https://saastr.libsyn.com/saastr-887-i-was-a-vc-at-founders-fund-heres-what-everyone-gets-wrong-with-sam-blond-ceo-of-monaco</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>Crossing the Chasm, Geoffrey Moore: Pragmatiker kaufen auf Referenz aus dem eigenen Segment, und sie kaufen das Whole Product; aus Modellwissen.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Bis Freitag die zwanzig häufigsten Kaufvorfragen zu Preis, Steuerberater-Anbindung und E-Rechnungsformaten in ChatGPT, Claude und Gemini stellen, Rang, Preis und Funktionen jeder Antwort gegen die Wahrheit prüfen und die Fehlerliste mit Quellseite als Punkt in die Wave-Readiness-Review legen.</p>]]></description>
+      <itunes:summary>Was neue Daten aus über siebenundzwanzigtausend Kaufprompts und einer Käuferumfrage über die Rolle von KI-Assistenten in der Mitte des B2B-Kaufprozesses zeigen, wie man ein Event-Budget für zweitausendsiebenundzwanzig gegen ein Lead-Leaderboard prüft, drei Kurzmeldungen zu Rechenkosten, KI-Nutzung im Mittelstand und KI-Vertriebsstartups, und Geoffrey Moores Pragmatiker als Denkmodell dahinter.</itunes:summary>
+      <pubDate>Thu, 19 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-19</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-19.mp3" length="7994089" type="audio/mpeg"/>
+      <itunes:duration>00:16:39</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 18.11. - Wachstum, das im Durchschnitt verschwindet</title>
       <itunes:title>CRO Daily 18.11. - Wachstum, das im Durchschnitt verschwindet</itunes:title>
