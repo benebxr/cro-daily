@@ -12,8 +12,34 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Sat, 21 Nov 2026 13:18:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 02:53:39 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 22.11. - Wer darf den Preis ändern</title>
+      <itunes:title>CRO Daily 22.11. - Wer darf den Preis ändern</itunes:title>
+      <description><![CDATA[<p>Der RevOps AI Authority Benchmark von RevOps Co-op und DealHub (n=102, Feldzeit August/September 2026) zeigt, dass 49 Prozent der Teams KI produktiv im Umsatzprozess einsetzen, 75 Prozent ihr aber keine Kundenverhandlungen überlassen wollen und 47 Prozent ihre Preisregeln nicht vollständig ohne IT ändern können; für ein SMB-Rechnungs-SaaS vor der E-Rechnungswelle heißt das, die Entscheidungsrechte über Rabatte, Aktionscodes und Konditionen schriftlich festzulegen und die Änderungsgeschwindigkeit von Rabattschwellen vor Januar zu testen. Jason Lemkin beschreibt, wie Agenten bei SaaStr übers Wochenende auf menschliche Freigaben warten und die Freigabelatenz zum eigentlichen Engpass wird. Im Radar LeanDatas Readiness-Report zu Agenten ohne Prüfpfad und CJ Gustafsons These, dass Teams den Ertrag von KI kaum messen; als Denkmodell Stephen Bungays The Art of Action.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>RevOps AI Authority Benchmark, Q4 2026, RevOps Co-op und DealHub, 28.10.2026 (n=102 RevOps-Praktiker, Feldzeit 18.08.-10.09.2026, überwiegend USA und Salesforce; Herausgeber ist Anbieter im selben Markt; Absichtsangaben, keine beobachteten Handlungen; Systemvergleich mit Kleinstbasen), <a href="https://dealhub.io/resource-center/reports/revops-ai-authority-benchmark/">https://dealhub.io/resource-center/reports/revops-ai-authority-benchmark/</a></li>
+<li>With Agents, We&#x27;re All Going to Have to Work Weekends. They&#x27;ll Want To. You May Need To., Jason Lemkin, SaaStr, 21.11.2026 (Volltext; SaaStr-Zahlen Selbstauskunft), <a href="https://www.saastr.com/with-agents-were-all-going-to-have-to-work-weekends-theyll-want-to-you-may-need-to/">https://www.saastr.com/with-agents-were-all-going-to-have-to-work-weekends-theyll-want-to-you-may-need-to/</a></li>
+<li>The 2026 State of AI Go-to-Market Readiness Report, LeanData, Sommer 2026 (n=157, Methodik nicht beschrieben, Zahlen in Zusammenfassung und Text teils widersprüchlich: 79 gegen 93 Prozent; Anbieter-Report), <a href="https://www.leandata.com/resources/2026-state-of-ai-go-to-market-readiness-report/">https://www.leandata.com/resources/2026-state-of-ai-go-to-market-readiness-report/</a></li>
+<li>How Do We Measure How Blind We Are?, CJ Gustafson, Mostly Metrics, 19.11.2026 (gesponsert von Brex, begleitet einen Finance-Tech-Stack-Report; kaum belegte Zahlen), <a href="https://www.mostlymetrics.com/p/how-do-we-measure-how-blind-we-are">https://www.mostlymetrics.com/p/how-do-we-measure-how-blind-we-are</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>Stephen Bungay, The Art of Action: How Leaders Close the Gaps between Plans, Actions and Results (2011): drei Lücken zwischen Plan, Handlung und Ergebnis, Auftragstaktik nach Moltke, gelenkter Opportunismus; aus Modellwissen.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Bis Freitag eine einseitige Entscheidungsmatrix für alle Workflows schreiben, die einen Preis berühren, mit Stufe, Obergrenze und verantwortlichem Menschen pro Zeile, und messen, wie lange eine Änderung an einer Rabattschwelle ohne Engineering dauert, damit beides als Punkt in die Wave-Readiness-Review geht.</p>]]></description>
+      <itunes:summary>Was ein Benchmark unter hundertzwei RevOps-Praktikern über Nutzung und Entscheidungsrechte von KI im Umsatzprozess zeigt und warum die Hoheit über Preisregeln vor der Welle zählt, warum laut Jason Lemkin die Freigabe durch Menschen den Durchsatz von Agenten begrenzt, zwei Kurzmeldungen zu Agenten ohne Fundament und KI ohne Ergebnismessung, und Stephen Bungays The Art of Action als Denkmodell.</itunes:summary>
+      <pubDate>Sun, 22 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-22</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-22.mp3" length="7440741" type="audio/mpeg"/>
+      <itunes:duration>00:15:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 21.11. - Was Nullwachstum kostet</title>
       <itunes:title>CRO Daily 21.11. - Was Nullwachstum kostet</itunes:title>
