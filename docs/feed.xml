@@ -12,8 +12,34 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Sun, 22 Nov 2026 13:10:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 02:53:51 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 23.11. - Durchreichen oder bepreisen</title>
+      <itunes:title>CRO Daily 23.11. - Durchreichen oder bepreisen</itunes:title>
+      <description><![CDATA[<p>Kyle Poyar beschreibt in Growth Unhinged, wie Gumloop KI-Kosten zum Einkaufspreis durchreicht und eine Orchestrierungsgebühr von acht Prozent nimmt, mit laut Gumloop siebzig Prozent niedrigerem Credit-Preis und zweiundvierzig Prozent höherer Trial Conversion; für ein SMB-Rechnungs-SaaS vor der E-Rechnungswelle heißt das, eigene Leistung und durchgereichte Fremdkosten im Preisblatt zu trennen, das Modell aber nicht vor Januar umzubauen. Sam Blond plant für Monaco jeden Monat einen großen Markenmoment nach einem festen Ablauf mit dreißig Tagen und achtundvierzig Stunden Vorlauf. Im Radar CJ Gustafsons These, dass Marge dort lebt, wo Kunden nicht vergleichen, und Jason Lemkins Siebzig-Prozent-Test für Marketing Automation; als Denkmodell Walter Ois zweiteiliger Tarif.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>A transparent pricing model for AI, Kyle Poyar, Growth Unhinged, 22.11.2026 (Volltext per Mail; gesponsert von Metronome; Gumloop-Zahlen Selbstauskunft ohne Vergleichsgruppe, Nutzungsgrafik ohne Achsenwerte; Tokenpreisdaten von Peter Walker/OpenRouter), <a href="https://www.growthunhinged.com/p/pass-through-pricing-for-ai">https://www.growthunhinged.com/p/pass-through-pricing-for-ai</a></li>
+<li>Sam Blond Met 200+ AI Sales Startups at Founders Fund, Then Built Monaco: Why Most Get It Wrong, Where AI Beats Your Reps, and the $15,000 Plane, Jason Lemkin, SaaStr, 22.11.2026 (Feeddatum; Zusammenfassung eines Vortrags bei SaaStr AI; keine Wirkungszahlen zu den Markenmomenten), <a href="https://www.saastr.com/sam-blond-met-200-ai-sales-startups-at-founders-fund-then-built-monaco-why-most-get-it-wrong-where-ai-beats-your-reps-and-the-15000-plane/">https://www.saastr.com/sam-blond-met-200-ai-sales-startups-at-founders-fund-then-built-monaco-why-most-get-it-wrong-where-ai-beats-your-reps-and-the-15000-plane/</a></li>
+<li>Friction is Margin, Margin is Friction, CJ Gustafson, Mostly Metrics, 22.11.2026 (AutoNation-Anteile 2025 laut Autor), <a href="https://www.mostlymetrics.com/p/friction-is-margin-margin-is-friction">https://www.mostlymetrics.com/p/friction-is-margin-margin-is-friction</a></li>
+<li>Jason&#x27;s Takes on This Week&#x27;s 20VC: Anthropic&#x27;s 6,000 Employees, a 2027 Without Nvidia as a Buyer, and Why Muse Is Replacing Marketing Automation, Jason Lemkin, SaaStr, 22.11.2026 (Einzelfall aus eigenem Betrieb), <a href="https://www.saastr.com/jasons-takes-on-this-weeks-20vc-anthropics-6000-employees-a-2027-without-nvidia-as-a-buyer-and-why-muse-is-replacing-marketing-automation/">https://www.saastr.com/jasons-takes-on-this-weeks-20vc-anthropics-6000-employees-a-2027-without-nvidia-as-a-buyer-and-why-muse-is-replacing-marketing-automation/</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>Walter Y. Oi, A Disneyland Dilemma: Two-Part Tariffs for a Mickey Mouse Monopoly, Quarterly Journal of Economics, 1971: Grundgebühr plus Nutzungspreis, Nutzung nahe Grenzkosten bei gleichartigen Kunden, darüber bei unterschiedlichen; aus Modellwissen.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Bis Freitag jede Position im eigenen Preisblatt als eigene Leistung oder durchgereichte Fremdkosten einordnen, für die Fremdkosten Einkaufspreis und Aufschlag notieren, markieren, was ein Agent künftig vergleichen wird, und das Ergebnis als Testoption fürs zweite Quartal ins Commercial Quarterly legen, ohne das Preismodell vor Januar anzufassen.</p>]]></description>
+      <itunes:summary>Wie Gumloop seine KI-Kosten offen durchreicht und acht Prozent Gebühr darauf nimmt, was Kyle Poyar daraus für Preismodelle ableitet, wie Sam Blond jeden Monat einen großen Markenmoment plant, zwei Kurzmeldungen zu Marge aus Reibung und zu Marketing Automation unter Druck, und der zweiteilige Tarif als Denkmodell.</itunes:summary>
+      <pubDate>Mon, 23 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-23</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-23.mp3" length="7713958" type="audio/mpeg"/>
+      <itunes:duration>00:16:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 22.11. - Wer darf den Preis ändern</title>
       <itunes:title>CRO Daily 22.11. - Wer darf den Preis ändern</itunes:title>
