@@ -12,8 +12,35 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Tue, 24 Nov 2026 15:39:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 02:56:10 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 25.11. - Kosten nach Verhalten sortieren</title>
+      <itunes:title>CRO Daily 25.11. - Kosten nach Verhalten sortieren</itunes:title>
+      <description><![CDATA[<p>CJ Gustafson schlägt in Mostly Metrics vor, die Gewinn- und Verlustrechnung nach dem Verhalten der Kosten zu ordnen, von stark variabel über stufenweise variabel bis fix und unbeweglich, und jede Position in einem Plus- und Minus-20-Prozent-Szenario mit Zeit bis zur Einsparung zu prüfen; für ein SMB-Rechnungs-SaaS vor der E-Rechnungswelle heißt das, Grundlast und Spitze der Januar-Nachfrage mit unterschiedlicher Kapazität abzudecken und dem Wave-Readiness-Review eine Kostenseite zu geben. Volker Oshege argumentiert bei t3n gegen den KI-Masterplan und für einen Rahmen aus vier Spielregeln, zentraler Plattform und dezentralen Lernformaten, was die Voraussetzung dafür ist, dass KI in der Welle Einstellungen vermeidet. Im Radar HubSpots gemeldeter Rückzug von der Customer-Harness-Positionierung, die TÜV-KI-Studie 2026 und ein Whitepaper zu Kennzahlen nach Finanzierungsphase; als Denkmodell Realoptionen nach Dixit und Pindyck.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>Your P&amp;L Is Hiding Secrets About Variable Costs, CJ Gustafson, Mostly Metrics, 24.11.2026 (Datum laut Übersichtsseite; gesponsert von Tabs; Beispiel A gegen B ist eine Illustration ohne Kostenaufteilung; Robinhood-Zahlen von CFO Shiv Verma aus dem Podcast Run the Numbers), <a href="https://www.mostlymetrics.com/p/your-p-l-is-hiding-secrets-about-variable-costs">https://www.mostlymetrics.com/p/your-p-l-is-hiding-secrets-about-variable-costs</a></li>
+<li>Der KI-Masterplan ist veraltet, bevor er beschlossen wird – was Unternehmen stattdessen tun sollten, Volker Oshege (Vorstand viadee), t3n, 24.11.2026 (Kolumne; Bitkom-Zahlen aus zweiter Hand, Stichprobe nicht genannt; keine Wirkungszahlen zu den Lernformaten), <a href="https://t3n.de/news/der-ki-masterplan-ist-veraltet-bevor-er-beschlossen-wird-was-unternehmen-stattdessen-tun-sollten-1774944/">https://t3n.de/news/der-ki-masterplan-ist-veraltet-bevor-er-beschlossen-wird-was-unternehmen-stattdessen-tun-sollten-1774944/</a></li>
+<li>GTM&#x27;s barbell, the value of RevOps in the AI era, HubSpot&#x27;s positioning conundrum, and why UI is going generative, Brendan Short, The Signal, 24.11.2026 (Volltext per Mail; Rückzug der Customer-Harness-Positionierung nur aus dieser Sekundärquelle, keine HubSpot-Bestätigung gefunden), <a href="https://www.thesignal.club/p/gtms-barbell-the-value-of-revops">https://www.thesignal.club/p/gtms-barbell-the-value-of-revops</a></li>
+<li>Boomer holen bei KI-Nutzung auf: Sorge vor nicht abschätzbaren Risiken steigt, Jörn Brien, t3n, 24.11.2026 (TÜV-KI-Studie 2026; Stichprobe und Zeitraum im Artikel nicht genannt), <a href="https://t3n.de/news/boomer-ki-nutzung-risiken-1775096/">https://t3n.de/news/boomer-ki-nutzung-risiken-1775096/</a></li>
+<li>StartupTicker: Kennzahlen: Umsatz allein reicht nicht, deutsche-startups.de, 23.11.2026 (Zusammenfassung des Tekkr-Whitepapers Goodbye, Revenue; Whitepaper selbst nicht gelesen), <a href="https://www.deutsche-startups.de/2026/11/23/rheinenergiestadion-outcome-accel-kennzahlen-thomas-mueller-hio-fitting/">https://www.deutsche-startups.de/2026/11/23/rheinenergiestadion-outcome-accel-kennzahlen-thomas-mueller-hio-fitting/</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>Realoptionen: Avinash K. Dixit und Robert S. Pindyck, Investment under Uncertainty, Princeton University Press, 1994; aus Modellwissen.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Bis Freitag die zehn größten Kapazitätsposten in Vertrieb, Onboarding und Support nach Gustafsons Raster sortieren, je Posten festhalten, ob er bei mehr Nachfrage automatisch, stufenweise oder nur auf Entscheidung steigt und in wie vielen Wochen er sich nach der Welle zurückdrehen lässt, und jede Stufenentscheidung mit einem Prüftermin im Februar in den Wave-Readiness-Review legen.</p>]]></description>
+      <itunes:summary>Warum CJ Gustafson die Gewinn- und Verlustrechnung nach Variabilität statt nach Abteilungen sortiert, was das für die Kapazität eines SMB-Rechnungs-SaaS in der E-Rechnungswelle bedeutet, wie Volker Oshege KI-Einführung ohne Masterplan organisiert, drei Kurzmeldungen zu HubSpot, zur TÜV-KI-Studie und zu Kennzahlen nach Wachstumsphase, und Realoptionen als Denkmodell.</itunes:summary>
+      <pubDate>Wed, 25 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-25</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-25.mp3" length="8162090" type="audio/mpeg"/>
+      <itunes:duration>00:17:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 24.11. - Altpreise auflösen</title>
       <itunes:title>CRO Daily 24.11. - Altpreise auflösen</itunes:title>
