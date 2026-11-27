@@ -12,8 +12,35 @@
     <itunes:category text="Business"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <lastBuildDate>Thu, 26 Nov 2026 14:52:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 02:54:18 +0000</lastBuildDate>
     
+    <item>
+      <title>CRO Daily 27.11. - Die Neukundenzahl fällt zuerst</title>
+      <itunes:title>CRO Daily 27.11. - Die Neukundenzahl fällt zuerst</itunes:title>
+      <description><![CDATA[<p>Jason Lemkin zeigt anhand der HubSpot-Zahlen aus dem dritten Quartal, dass die Netto-Neukunden von rund 10.900 auf 5.258 pro Quartal gefallen sind, während Umsatz, Marge und Gewinn pro Aktie noch über den Erwartungen lagen und die Net Revenue Retention von 105 auf 101 Prozent sank; in einem Freemium-Trichter kippt die Eingangszahl ein bis zwei Jahre vor dem Umsatz. Für ein SMB-Rechnungs-SaaS vor der E-Rechnungswelle folgt daraus: die richtige Trichterstufe wählen, etwa die erste versendete E-Rechnung statt der Registrierung, sie wöchentlich und vor der Umsatzzeile berichten und die Eingriffsschwelle festlegen, bevor die Welle die Zahl im Januar nach oben verzerrt. Im zweiten Stück IBMs Weg von 27 Chatbots zu einer zentralen HR-Plattform mit drei Viertel weniger Tickets als 2016 als Vorlage für Support-Agenten in der Welle, im Radar Visma, Michael Dzik von Radian Capital und Kyle Norton, als Denkmodell Dixons Jolt Effect.</p>
+
+<h3>Quellen</h3>
+
+<ul><li>5 Interesting Learnings from HubSpot as Brian Halligan Returns as CEO: A Refounding to Reaccelerate Growth, Jason Lemkin, SaaStr, 26.11.2026 (Auswertung von Quartalszahlen und 10-Q; Netto-Neukunden Q3&#x27;25 bis Q3&#x27;26: 10.898, 9.826, 10.752, 6.988, 5.258, Q3 inklusive YouSpot Pro ohne Größenangabe; NRR 105/103/102/101 Prozent; 27 Prozent Rückgang des organischen Kunden-Traffics laut nicht näher bezeichneten HubSpot-Unterlagen), <a href="https://www.saastr.com/5-interesting-learnings-from-hubspot-as-brian-halligan-returns-as-ceo-net-new-customers-cut-in-half-nrr-down-to-101-and-a-guide-to-12-growth/">https://www.saastr.com/5-interesting-learnings-from-hubspot-as-brian-halligan-returns-as-ceo-net-new-customers-cut-in-half-nrr-down-to-101-and-a-guide-to-12-growth/</a></li>
+<li>75 % weniger HR-Tickets: Wie IBM KI im Personalwesen einsetzt, t3n (Autor im frei lesbaren Teil nicht genannt), 26.11.2026 (Use Case, zur Hälfte hinter t3n PRO; Selbstauskunft des IBM-Projektverantwortlichen, keine Messreihe; Prüffragen und Checkliste nicht gelesen), <a href="https://t3n.de/news/ki-im-personalwesen-ibm-askhr-1775483/">https://t3n.de/news/ki-im-personalwesen-ibm-askhr-1775483/</a></li>
+<li>What happens after the acquisition? Lessons from 180+ companies at Visma, SaaSiest Podcast #218 mit Ari-Pekka Salovaara, 26.11.2026 (nur Shownotes aus dem SaaSiest-Newsletter; Episode nicht gehört), <a href="https://saasiest.com/">https://saasiest.com/</a></li>
+<li>SPOTLIGHT: Optimizing Growth in B2B Tech with Mike Dzik, Topline (Pavilion), Sam Jacobs, AJ Bruno, Asad Zaman, 26.11.2026 (nur Shownotes), <a href="https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-optimizing-growth-in-b2b-tech-with-mike-dzik-michael-dzik-operating-partner-radian-capital">https://ed89b0ae-e358-414a-9719-bac1c505b717.libsyn.com/spotlight-optimizing-growth-in-b2b-tech-with-mike-dzik-michael-dzik-operating-partner-radian-capital</a></li>
+<li>I Trained BDRs to Close $1,000,000 Each Every Year w/ Kyle Norton, The Science of Scaling, 24.11.2026 (nur Shownotes; Zahlen Selbstauskunft), <a href="https://podcasts.apple.com/us/podcast/the-science-of-scaling/id1692614906">https://podcasts.apple.com/us/podcast/the-science-of-scaling/id1692614906</a></li>
+</ul>
+<h3>Konzept des Tages</h3>
+
+<p>The Jolt Effect: Matthew Dixon und Ted McKenna, The JOLT Effect: How High Performers Overcome Customer Indecision, 2022; aus Modellwissen.</p>
+
+<h3>Der eine Move</h3>
+
+<p>Bis Mittwoch festlegen, welche zwei Eingangskennzahlen des Trichters, zum Beispiel neue Konten mit erster versendeter E-Rechnung pro Woche und Wechsel von kostenlos zu bezahlt, im Commercial Quarterly vor der Umsatzzeile stehen, und für jede eine Schwelle aufschreiben, ab der nach der Welle eingegriffen wird.</p>]]></description>
+      <itunes:summary>Warum bei HubSpot die Zahl der Netto-Neukunden ein bis zwei Jahre vor dem Umsatz kippt, was IBM vor dem Start eines einzigen HR-Agenten aufräumen musste, drei Kurzmeldungen zu Visma, Radian Capital und Kyle Norton, und Matthew Dixons Jolt Effect als Denkmodell.</itunes:summary>
+      <pubDate>Fri, 27 Nov 2026 04:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cro-daily-2026-11-27</guid>
+      <enclosure url="https://benebxr.github.io/cro-daily/episodes/2026-11-27.mp3" length="7887146" type="audio/mpeg"/>
+      <itunes:duration>00:16:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
     <item>
       <title>CRO Daily 26.11. - Die Aktionskohorte erst am Vollpreis lesen</title>
       <itunes:title>CRO Daily 26.11. - Die Aktionskohorte erst am Vollpreis lesen</itunes:title>
